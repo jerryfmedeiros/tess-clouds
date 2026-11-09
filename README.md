@@ -28,9 +28,11 @@ Scripts that read raw files take them from the folder named by the environment v
 The git repository holds the code, the results, the tables, the figures and the small data files (the selection,
 the exclusions, the elevations, the frozen thresholds, the ERA5 pressure-level series). The derived data that
 `verify.py` reads are in the data archive released with the paper (about 4.2 GB; Zenodo DOI in the code availability
-statement): `data/features/` (2.2 GB), `data/nights/` (1.0 GB), `data/record/` (0.4 GB), `data/era5_ts/`, `data/metar/`,
-`data/goes/`, `data/msg/`, `data/viirs/`, `data/sat/`, `data/mountain/`, `data/cloudtop/`. Unpack the archive over the
-clone so that these folders sit under `data/`; without them `verify.py --list` marks 17 of the 26 targets as skipped.
+statement), one tar file per folder: `data_features.tar` (2.3 GB), `data_nights.tar` (1.0 GB), `data_record.tar`
+(0.4 GB), `data_era5_ts.tar`, `data_metar.tar`, `data_msg.tar`, `data_sat.tar`, `data_mountain.tar`, `data_goes.tar`
+and `data_viirs.tar`, with their checksums in `SHA256SUMS`. Unpack them in the repository folder
+(`for f in data_*.tar; do tar -xf "$f"; done`) so that the folders sit under `data/`; without them
+`verify.py --list` marks 17 of the 26 targets as skipped.
 
 ## What is where
 
