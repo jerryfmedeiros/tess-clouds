@@ -1,0 +1,70 @@
+candidates 113; chosen stars721 night 2023-11-11: reports 38, smaller class 14, changes 1, Meteosat matches 24
+held-out fold 1 (reproduces all 26317 stored calls of the photometer): kz 2.8845 kv 0.3635; released kz 2.449 kv 0.3605; held-out clear-sky SD 2.711 C
+bins 144, called cloudy 55
+METAR reports (time, label, held-out two-test call):
+  17:55 partial False
+  18:25 clear   True
+  18:55 partial False
+  19:25 partial False
+  19:55 clear   False
+  20:23 clear   False
+  20:25 clear   False
+  20:55 clear   False
+  21:25 clear   False
+  21:55 clear   True
+  22:10 clear   True
+  22:25 clear   True
+  22:39 clear   True
+  22:52 clear   True
+  22:55 clear   True
+  23:25 clear   False
+  23:33 clear   False
+  23:48 clear   False
+  23:55 clear   False
+  00:13 clear   False
+  00:25 clear   False
+  00:35 clear   False
+  00:46 clear   False
+  00:52 clear   False
+  00:55 clear   False
+  01:06 clear   False
+  01:25 clear   False
+  01:51 cloudy  False
+  01:52 cloudy  False
+  01:55 cloudy  False
+  02:03 cloudy  False
+  02:24 cloudy  False
+  02:25 cloudy  False
+  02:50 cloudy  True
+  02:55 cloudy  True
+  03:19 cloudy  True
+  03:25 cloudy  True
+  03:55 cloudy  True
+  04:25 cloudy  True
+  04:55 cloudy  True
+  05:25 cloudy  True
+Meteosat (time, label):
+  17:30 clear
+  18:00 clear
+  18:30 clear
+  19:00 clear
+  19:30 partial
+  20:00 cloudy
+  20:30 cloudy
+  21:00 cloudy
+  21:30 cloudy
+  22:00 partial
+  22:30 clear
+  23:00 clear
+  23:30 partial
+  00:00 partial
+  00:30 partial
+  01:00 partial
+  01:30 cloudy
+  02:00 cloudy
+  02:30 cloudy
+  03:00 cloudy
+  03:30 cloudy
+  04:00 partial
+  04:30 cloudy
+  05:00 cloudy

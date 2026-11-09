@@ -1,0 +1,25 @@
+VIIRS rows of data/cloudtop/viirs.csv and satellite-clear rows; box = 7 x 7 pixels; readings fixed before looking: thin = conf >= 0.5 and rh_top >= 70%, mask_error = conf < 0.5 and rh_top < 50%
+Canary: photometers 11
+  missed  n  400  z_brunt median +0.44 share > 1 0.297  s5_excess median +0.049
+           conf median 0.63 share >= 0.5 0.623  uncertain median 0.27  emis median 0.93 share < 0.5 0.242  ctp median 658 hPa
+           rh_top median 20.2 (with value 1.000)  phase water 0.72 ice 0.28 mixed 0.00 undetermined 0.00
+           ERA5 cc_top median 0.00 share >= 0.1 0.210  cc_above share >= 0.1 0.605
+           reading thin 0.177  mask_error 0.323  unresolved 0.500
+  agreed  n  397  z_brunt median +4.93 share > 1 0.924  s5_excess median +0.277
+           conf median 0.84 share >= 0.5 0.796  uncertain median 0.12  emis median 0.91 share < 0.5 0.196  ctp median 509 hPa
+           rh_top median 64.5 (with value 1.000)  phase water 0.58 ice 0.42 mixed 0.00 undetermined 0.00
+           ERA5 cc_top median 0.09 share >= 0.1 0.471  cc_above share >= 0.1 0.778
+           reading thin 0.403  mask_error 0.113  unresolved 0.484
+  clear   n  400  z_brunt median +0.35 share > 1 0.217  s5_excess median -0.004
+other: photometers 18
+  missed  n  398  z_brunt median +0.50 share > 1 0.309  s5_excess median +0.005
+           conf median 0.87 share >= 0.5 0.646  uncertain median 0.08  emis median 0.76 share < 0.5 0.349  ctp median 496 hPa
+           rh_top median 60.2 (with value 0.990)  phase water 0.53 ice 0.47 mixed 0.00 undetermined 0.00
+           ERA5 cc_top median 0.02 share >= 0.1 0.384  cc_above share >= 0.1 0.693
+           reading thin 0.394  mask_error 0.241  unresolved 0.364
+  agreed  n  399  z_brunt median +3.94 share > 1 0.900  s5_excess median +0.353
+           conf median 0.94 share >= 0.5 0.719  uncertain median 0.06  emis median 0.83 share < 0.5 0.201  ctp median 420 hPa
+           rh_top median 73.0 (with value 1.000)  phase water 0.51 ice 0.49 mixed 0.00 undetermined 0.00
+           ERA5 cc_top median 0.16 share >= 0.1 0.564  cc_above share >= 0.1 0.842
+           reading thin 0.444  mask_error 0.110  unresolved 0.446
+  clear   n  400  z_brunt median -0.04 share > 1 0.080  s5_excess median -0.018

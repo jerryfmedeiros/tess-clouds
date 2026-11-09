@@ -1,0 +1,7 @@
+# Archive months whose readings come from more than one device under one identifier, from results/audit_sequence.csv
+# (message counters intermingled with no gap in the readings; audit_sequence.py, 2026-11-02). Added after the freeze.
+# Skipped by build_nights.py: every archive file of that identifier and month. The same bench device also ran for 35 min
+# in daylight on 2020-07-09 (10:56-11:32 UTC); daylight is not used, so July 2020 is kept.
+id,month,reason
+stars297,2019-11,second device at 10 s cadence interleaved 2019-11-26 to 11-29 (indoor bench device: die ~23 C, sky +16 to +19 C)
+stars297,2019-12,same bench device interleaved on 6 days between 2019-12-01 and 12-17

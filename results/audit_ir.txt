@@ -1,0 +1,8 @@
+identifiers audited: 406; readings: 344511419
+no-read share (sky 0.00 C), network: 0.0128
+error share (-273.15 C), network: 0.0057
+identifiers with any valid sky reading below -50.0 C: 2
+identifiers with floor share > 1%: 24
+identifiers whose IR never reads (no-read share > 99%): 0
+identifiers with an identical-value run over 600 readings: 42
+median of per-identifier night die median: 11.43 C

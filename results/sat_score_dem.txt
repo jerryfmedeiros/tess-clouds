@@ -1,0 +1,162 @@
+photometers 384; mountain 37 (stars1051, stars1170, stars1432, stars18, stars211, stars213, stars216, stars219, stars221, stars246, stars270, stars289, stars290, stars31, stars336, stars383, stars385, stars391, stars393, stars394, stars426, stars427, stars507, stars610, stars611, stars613, stars725, stars726, stars727, stars737, stars749, stars796, stars831, stars892, stars90, stars930, stars933); thresholds: two-test z > 2.449 or s5_excess > 0.3605 (frozen); intervals: 95% night-block within photometers [..] then photometer-cluster (..); weak baseline (qc_baseline.py) 26; photometers with at least one matched scan 384
+
+goes: 612068 matched rows, 65 photometers (0 without snow depth, left out)
+  primary   photometers   52  references   284960 (cloudy 169632)
+    two_test     0.797 [0.795-0.800] (0.760-0.827)  hit 0.701  false alarm 0.106  partial called cloudy 0.372183
+    z_brunt      0.790 [0.787-0.793] (0.751-0.824)  hit 0.658  false alarm 0.078  partial called cloudy 0.263725
+    neg_dT       0.756 [0.753-0.760] (0.713-0.794)  hit 0.802  false alarm 0.289  partial called cloudy 0.393848
+    vis15        0.724 [0.721-0.726] (0.704-0.741)  hit 0.669  false alarm 0.222  partial called cloudy 0.465528
+    dashboard    0.770 [0.767-0.773] (0.728-0.804)  hit 0.696  false alarm 0.156  partial called cloudy 0.290763
+    alarcon      0.500 [0.500-0.500] (0.500-0.500)  hit 1.000  false alarm 1.000  partial called cloudy 1.0
+    always_clear 0.500 [0.500-0.500] (0.500-0.500)  hit 0.000  false alarm 0.000  partial called cloudy 0.0
+    per photometer (49 with >= 100 clear and cloudy): two-test median 0.803, 10th pct 0.537, min 0.512 (stars472)
+  primary_qc photometers   41  references   250802 (cloudy 149084)
+    two_test     0.830 [0.827-0.833] (0.804-0.853)  hit 0.770  false alarm 0.110  partial called cloudy 0.374583
+    z_brunt      0.826 [0.823-0.829] (0.795-0.852)  hit 0.739  false alarm 0.087  partial called cloudy 0.276708
+    neg_dT       0.756 [0.752-0.759] (0.707-0.797)  hit 0.793  false alarm 0.281  partial called cloudy 0.382154
+    vis15        0.727 [0.724-0.730] (0.705-0.745)  hit 0.670  false alarm 0.216  partial called cloudy 0.462273
+    dashboard    0.766 [0.762-0.769] (0.714-0.807)  hit 0.685  false alarm 0.153  partial called cloudy 0.283048
+    alarcon      0.500 [0.500-0.500] (0.500-0.500)  hit 1.000  false alarm 1.000  partial called cloudy 1.0
+    always_clear 0.500 [0.500-0.500] (0.500-0.500)  hit 0.000  false alarm 0.000  partial called cloudy 0.0
+  snow      photometers   35  references   137013 (cloudy 105985)
+    two_test     0.769 [0.764-0.774] (0.717-0.822)  hit 0.761  false alarm 0.222  partial called cloudy 0.555749
+    z_brunt      0.772 [0.767-0.776] (0.708-0.834)  hit 0.677  false alarm 0.133  partial called cloudy 0.35793
+    neg_dT       0.822 [0.817-0.827] (0.802-0.840)  hit 0.776  false alarm 0.131  partial called cloudy 0.341281
+    vis15        0.663 [0.659-0.667] (0.650-0.673)  hit 0.560  false alarm 0.234  partial called cloudy 0.492517
+    dashboard    0.761 [0.756-0.766] (0.736-0.784)  hit 0.633  false alarm 0.111  partial called cloudy 0.265924
+    alarcon      0.500 [0.500-0.500] (0.500-0.500)  hit 1.000  false alarm 1.000  partial called cloudy 1.0
+    always_clear 0.500 [0.500-0.500] (0.500-0.500)  hit 0.000  false alarm 0.000  partial called cloudy 0.0
+  mountain  photometers   12  references    77236 (cloudy 32468)
+    two_test     0.715 [0.708-0.721] (0.668-0.804)  hit 0.453  false alarm 0.024  partial called cloudy 0.157949
+    z_brunt      0.689 [0.684-0.696] (0.641-0.790)  hit 0.391  false alarm 0.012  partial called cloudy 0.098342
+    neg_dT       0.627 [0.622-0.633] (0.580-0.714)  hit 0.292  false alarm 0.037  partial called cloudy 0.097054
+    vis15        0.626 [0.620-0.632] (0.595-0.685)  hit 0.467  false alarm 0.215  partial called cloudy 0.323027
+    dashboard    0.602 [0.597-0.607] (0.567-0.667)  hit 0.212  false alarm 0.008  partial called cloudy 0.051275
+    alarcon      0.489 [0.486-0.491] (0.471-0.503)  hit 0.973  false alarm 0.995  partial called cloudy 0.990896
+    always_clear 0.500 [0.500-0.500] (0.500-0.500)  hit 0.000  false alarm 0.000  partial called cloudy 0.0
+  metar     photometers    3  references    13819 (cloudy 8413)
+    two_test     0.863 [0.853-0.873] (0.847-0.873)  hit 0.831  false alarm 0.104  partial called cloudy 0.482008
+    z_brunt      0.866 [0.856-0.877] (0.855-0.869)  hit 0.815  false alarm 0.083  partial called cloudy 0.349432
+    neg_dT       0.793 [0.778-0.807] (0.775-0.853)  hit 0.840  false alarm 0.254  partial called cloudy 0.534091
+    vis15        0.761 [0.752-0.771] (0.739-0.779)  hit 0.707  false alarm 0.185  partial called cloudy 0.672348
+    dashboard    0.825 [0.813-0.836] (0.806-0.844)  hit 0.731  false alarm 0.081  partial called cloudy 0.324811
+    alarcon      0.500 [0.500-0.500] (0.500-0.500)  hit 1.000  false alarm 1.000  partial called cloudy 1.0
+    always_clear 0.500 [0.500-0.500] (0.500-0.500)  hit 0.000  false alarm 0.000  partial called cloudy 0.0
+
+msg: 5501485 matched rows, 284 photometers (0 without snow depth, left out)
+  primary   photometers  258  references  3950266 (cloudy 2016366)
+    two_test     0.758 [0.757-0.759] (0.744-0.771)  hit 0.687  false alarm 0.172  partial called cloudy 0.446659
+    z_brunt      0.756 [0.755-0.757] (0.741-0.769)  hit 0.640  false alarm 0.128  partial called cloudy 0.360941
+    neg_dT       0.706 [0.705-0.707] (0.690-0.721)  hit 0.760  false alarm 0.348  partial called cloudy 0.546287
+    vis15        0.690 [0.689-0.691] (0.682-0.698)  hit 0.658  false alarm 0.278  partial called cloudy 0.532143
+    dashboard    0.734 [0.732-0.735] (0.722-0.746)  hit 0.653  false alarm 0.186  partial called cloudy 0.397391
+    alarcon      0.500 [0.500-0.500] (0.500-0.500)  hit 1.000  false alarm 0.999  partial called cloudy 0.999712
+    always_clear 0.500 [0.500-0.500] (0.500-0.500)  hit 0.000  false alarm 0.000  partial called cloudy 0.0
+    per photometer (254 with >= 100 clear and cloudy): two-test median 0.771, 10th pct 0.643, min 0.442 (stars436)
+  primary_qc photometers  249  references  3817719 (cloudy 1924835)
+    two_test     0.768 [0.766-0.769] (0.755-0.779)  hit 0.707  false alarm 0.172  partial called cloudy 0.450011
+    z_brunt      0.768 [0.766-0.769] (0.755-0.779)  hit 0.664  false alarm 0.129  partial called cloudy 0.368169
+    neg_dT       0.706 [0.705-0.708] (0.689-0.722)  hit 0.756  false alarm 0.343  partial called cloudy 0.544054
+    vis15        0.691 [0.690-0.691] (0.682-0.699)  hit 0.659  false alarm 0.278  partial called cloudy 0.53195
+    dashboard    0.734 [0.733-0.735] (0.721-0.746)  hit 0.647  false alarm 0.179  partial called cloudy 0.393259
+    alarcon      0.500 [0.500-0.500] (0.500-0.500)  hit 1.000  false alarm 0.999  partial called cloudy 0.999709
+    always_clear 0.500 [0.500-0.500] (0.500-0.500)  hit 0.000  false alarm 0.000  partial called cloudy 0.0
+  snow      photometers  144  references   223823 (cloudy 154698)
+    two_test     0.754 [0.749-0.760] (0.726-0.780)  hit 0.830  false alarm 0.322  partial called cloudy 0.521429
+    z_brunt      0.773 [0.767-0.779] (0.745-0.799)  hit 0.799  false alarm 0.253  partial called cloudy 0.448287
+    neg_dT       0.772 [0.766-0.778] (0.750-0.791)  hit 0.754  false alarm 0.210  partial called cloudy 0.419201
+    vis15        0.642 [0.637-0.646] (0.627-0.655)  hit 0.615  false alarm 0.332  partial called cloudy 0.486427
+    dashboard    0.742 [0.736-0.747] (0.720-0.760)  hit 0.640  false alarm 0.156  partial called cloudy 0.332972
+    alarcon      0.501 [0.500-0.502] (0.500-0.502)  hit 0.999  false alarm 0.997  partial called cloudy 0.998478
+    always_clear 0.500 [0.500-0.500] (0.500-0.500)  hit 0.000  false alarm 0.000  partial called cloudy 0.0
+  mountain  photometers   26  references   361599 (cloudy 202625)
+    two_test     0.654 [0.651-0.658] (0.620-0.702)  hit 0.424  false alarm 0.116  partial called cloudy 0.212213
+    z_brunt      0.645 [0.641-0.648] (0.610-0.691)  hit 0.361  false alarm 0.072  partial called cloudy 0.154673
+    neg_dT       0.604 [0.600-0.608] (0.565-0.655)  hit 0.291  false alarm 0.083  partial called cloudy 0.130688
+    vis15        0.598 [0.595-0.602] (0.575-0.634)  hit 0.451  false alarm 0.254  partial called cloudy 0.314686
+    dashboard    0.590 [0.587-0.593] (0.557-0.632)  hit 0.235  false alarm 0.055  partial called cloudy 0.104491
+    alarcon      0.484 [0.482-0.485] (0.469-0.497)  hit 0.957  false alarm 0.990  partial called cloudy 0.979786
+    always_clear 0.500 [0.500-0.500] (0.500-0.500)  hit 0.000  false alarm 0.000  partial called cloudy 0.0
+  metar     photometers   38  references   579203 (cloudy 294118)
+    two_test     0.778 [0.775-0.780] (0.759-0.794)  hit 0.751  false alarm 0.196  partial called cloudy 0.495857
+    z_brunt      0.782 [0.779-0.785] (0.761-0.799)  hit 0.713  false alarm 0.149  partial called cloudy 0.421735
+    neg_dT       0.717 [0.714-0.720] (0.687-0.742)  hit 0.829  false alarm 0.395  partial called cloudy 0.648372
+    vis15        0.683 [0.681-0.685] (0.663-0.702)  hit 0.686  false alarm 0.319  partial called cloudy 0.576639
+    dashboard    0.766 [0.763-0.769] (0.750-0.778)  hit 0.705  false alarm 0.173  partial called cloudy 0.437678
+    alarcon      0.500 [0.500-0.500] (0.500-0.500)  hit 1.000  false alarm 1.000  partial called cloudy 1.0
+    always_clear 0.500 [0.500-0.500] (0.500-0.500)  hit 0.000  false alarm 0.000  partial called cloudy 0.0
+
+viirs: 403081 matched rows, 384 photometers (0 without snow depth, left out)
+  primary   photometers  347  references   248227 (cloudy 156804)
+    two_test     0.823 [0.821-0.824] (0.811-0.833)  hit 0.707  false alarm 0.061  partial called cloudy 0.335635
+    z_brunt      0.807 [0.806-0.809] (0.794-0.820)  hit 0.665  false alarm 0.051  partial called cloudy 0.230937
+    neg_dT       0.764 [0.762-0.766] (0.750-0.780)  hit 0.778  false alarm 0.250  partial called cloudy 0.444511
+    vis15        0.765 [0.763-0.767] (0.758-0.771)  hit 0.666  false alarm 0.136  partial called cloudy 0.420719
+    dashboard    0.777 [0.775-0.779] (0.764-0.788)  hit 0.668  false alarm 0.114  partial called cloudy 0.287123
+    alarcon      0.500 [0.500-0.500] (0.500-0.500)  hit 1.000  false alarm 1.000  partial called cloudy 0.999487
+    always_clear 0.500 [0.500-0.500] (0.500-0.500)  hit 0.000  false alarm 0.000  partial called cloudy 0.0
+    per photometer (234 with >= 100 clear and cloudy): two-test median 0.832, 10th pct 0.724, min 0.469 (stars436)
+  primary_qc photometers  322  references   236404 (cloudy 147622)
+    two_test     0.838 [0.836-0.839] (0.828-0.847)  hit 0.736  false alarm 0.060  partial called cloudy 0.339141
+    z_brunt      0.825 [0.824-0.827] (0.815-0.835)  hit 0.700  false alarm 0.050  partial called cloudy 0.238782
+    neg_dT       0.765 [0.763-0.767] (0.750-0.779)  hit 0.774  false alarm 0.244  partial called cloudy 0.437018
+    vis15        0.766 [0.764-0.768] (0.759-0.773)  hit 0.667  false alarm 0.135  partial called cloudy 0.4199
+    dashboard    0.777 [0.775-0.779] (0.763-0.788)  hit 0.661  false alarm 0.107  partial called cloudy 0.277318
+    alarcon      0.500 [0.500-0.500] (0.500-0.500)  hit 1.000  false alarm 1.000  partial called cloudy 0.999475
+    always_clear 0.500 [0.500-0.500] (0.500-0.500)  hit 0.000  false alarm 0.000  partial called cloudy 0.0
+  snow      photometers  190  references    28536 (cloudy 24031)
+    two_test     0.746 [0.739-0.753] (0.717-0.776)  hit 0.721  false alarm 0.230  partial called cloudy 0.517619
+    z_brunt      0.745 [0.739-0.752] (0.713-0.778)  hit 0.647  false alarm 0.157  partial called cloudy 0.394833
+    neg_dT       0.759 [0.753-0.766] (0.741-0.776)  hit 0.672  false alarm 0.154  partial called cloudy 0.421216
+    vis15        0.691 [0.683-0.698] (0.673-0.708)  hit 0.572  false alarm 0.191  partial called cloudy 0.467866
+    dashboard    0.709 [0.702-0.715] (0.691-0.726)  hit 0.546  false alarm 0.128  partial called cloudy 0.345171
+    alarcon      0.502 [0.501-0.503] (0.500-0.503)  hit 1.000  false alarm 0.996  partial called cloudy 0.99927
+    always_clear 0.500 [0.500-0.500] (0.500-0.500)  hit 0.000  false alarm 0.000  partial called cloudy 0.0
+  mountain  photometers   37  references    18779 (cloudy 9152)
+    two_test     0.796 [0.790-0.801] (0.767-0.818)  hit 0.620  false alarm 0.028  partial called cloudy 0.174851
+    z_brunt      0.761 [0.755-0.766] (0.732-0.790)  hit 0.544  false alarm 0.022  partial called cloudy 0.098815
+    neg_dT       0.733 [0.727-0.739] (0.697-0.772)  hit 0.511  false alarm 0.045  partial called cloudy 0.108636
+    vis15        0.720 [0.714-0.726] (0.697-0.738)  hit 0.586  false alarm 0.146  partial called cloudy 0.264554
+    dashboard    0.696 [0.691-0.702] (0.658-0.738)  hit 0.412  false alarm 0.019  partial called cloudy 0.073707
+    alarcon      0.497 [0.496-0.498] (0.491-0.501)  hit 0.990  false alarm 0.997  partial called cloudy 0.974587
+    always_clear 0.500 [0.500-0.500] (0.500-0.500)  hit 0.000  false alarm 0.000  partial called cloudy 0.0
+  metar     photometers   53  references    39053 (cloudy 26127)
+    two_test     0.855 [0.852-0.858] (0.838-0.868)  hit 0.764  false alarm 0.055  partial called cloudy 0.3266
+    z_brunt      0.848 [0.845-0.852] (0.832-0.864)  hit 0.732  false alarm 0.036  partial called cloudy 0.232455
+    neg_dT       0.808 [0.804-0.812] (0.782-0.828)  hit 0.803  false alarm 0.187  partial called cloudy 0.445053
+    vis15        0.770 [0.766-0.775] (0.757-0.784)  hit 0.681  false alarm 0.140  partial called cloudy 0.423006
+    dashboard    0.817 [0.814-0.821] (0.805-0.827)  hit 0.678  false alarm 0.043  partial called cloudy 0.231085
+    alarcon      0.500 [0.500-0.500] (0.500-0.500)  hit 1.000  false alarm 1.000  partial called cloudy 1.0
+    always_clear 0.500 [0.500-0.500] (0.500-0.500)  hit 0.000  false alarm 0.000  partial called cloudy 0.0
+
+METAR cross-checks (geostationary rows in the report's 30-minute window; held-out METAR calls)
+  high cloud: 142187 CLR/SKC/NCD reports with a satellite match; satellite clear 0.677, partial 0.117, cloudy 0.206
+    satellite clear   n= 96234: classifier cloudy share 0.049
+    satellite partial n= 16618: classifier cloudy share 0.173
+    satellite cloudy  n= 29335: classifier cloudy share 0.314
+  CAVOK/NSC with a clear satellite as clear vs BKN/OVC/VV, all METAR photometers: clear 117397, cloudy 476886; two-test balanced accuracy 0.898 [0.896-0.901] (0.880-0.914) (hit 0.880, false alarm 0.083)
+  CAVOK/NSC with a clear satellite as clear vs BKN/OVC/VV, photometers without enough clear reports (stars377, stars552, stars71, stars73, stars960, stars971, stars974, stars975): clear 19422, cloudy 38592; two-test balanced accuracy 0.889 [0.883-0.894] (0.831-0.926) (hit 0.883, false alarm 0.106)
+
+Added after the frozen run (second generator, SEED + 1)
+  paired by photometer, primary rows: pooled two-test balanced accuracy minus the method's [95% interval]
+    goes   photometers   52  dashboard +0.027 [-0.014 to +0.071]  z_brunt +0.007 [-0.000 to +0.015]
+    msg    photometers  258  dashboard +0.024 [+0.011 to +0.035]  z_brunt +0.002 [-0.002 to +0.005]
+    viirs  photometers  347  dashboard +0.046 [+0.033 to +0.059]  z_brunt +0.016 [+0.012 to +0.019]
+  obstructed months (qc_ir.py month by month): primary rows in flagged months against the rest
+    goes   flagged rows 3345 (0.0117) at 1 photometers (weak-flagged 0): satellite cloudy 0.454 vs 0.597, classifier cloudy 1.000 vs 0.454
+      primary_months    photometers   52  two-test 0.803 [0.801-0.806] (0.767-0.833)  hit 0.698  false alarm 0.092
+      primary_qc_months photometers   41  two-test 0.837 [0.834-0.840] (0.812-0.857)  hit 0.767  false alarm 0.094
+    msg    flagged rows 44539 (0.0113) at 21 photometers (weak-flagged 5): satellite cloudy 0.436 vs 0.511, classifier cloudy 0.626 vs 0.433
+      primary_months    photometers  258  two-test 0.761 [0.760-0.762] (0.748-0.773)  hit 0.688  false alarm 0.166
+      primary_qc_months photometers  249  two-test 0.770 [0.769-0.771] (0.758-0.781)  hit 0.706  false alarm 0.166
+    viirs  flagged rows 2472 (0.0100) at 21 photometers (weak-flagged 5): satellite cloudy 0.607 vs 0.632, classifier cloudy 0.646 vs 0.467
+      primary_months    photometers  347  two-test 0.826 [0.825-0.828] (0.815-0.836)  hit 0.707  false alarm 0.054
+      primary_qc_months photometers  322  two-test 0.840 [0.839-0.842] (0.831-0.849)  hit 0.735  false alarm 0.054
+  high cloud, all CLR/SKC/NCD reports: 142187 reports at 44 photometers
+    satellite clear   n= 96234: classifier cloudy share 0.049; largest airport KJAC 0.488
+    satellite partial n= 16618: classifier cloudy share 0.173; largest airport KJAC 0.464
+    satellite cloudy  n= 29335: classifier cloudy share 0.314; largest airport KJAC 0.618
+  high cloud, snow-free, not mountain (as sat_vs_metar.py): 61993 reports at 41 photometers
+    satellite clear   n= 43607: classifier cloudy share 0.051; largest airport EBBE 0.189
+    satellite partial n=  7938: classifier cloudy share 0.134; largest airport EBBE 0.165
+    satellite cloudy  n= 10448: classifier cloudy share 0.144; largest airport EBBE 0.214

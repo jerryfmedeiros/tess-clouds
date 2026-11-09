@@ -1,0 +1,34 @@
+28 photometers with at least 20 reference nights (30 of 58 paired photometers have fewer)
+
+pooled over covered nights: nights, contaminated share [95%], nights relative to threshold
+  stable      7104  0.1265 [0.1200-0.1342]  1.313   readings under cloudy reports 0.1011
+  threshold    5412  0.0778 [0.0706-0.0851]  1.000   readings under cloudy reports 0.0700
+  flag        6302  0.0644 [0.0589-0.0702]  1.164   readings under cloudy reports 0.0585
+  both        5180  0.0620 [0.0563-0.0691]  0.957   readings under cloudy reports 0.0569
+  removed     2986  0.3131 [0.2960-0.3285]  0.552   readings under cloudy reports 0.2986
+
+median over photometers of the offset of the median night from the reference sky (mag; negative = brighter) [10th-90th pct], and of the contaminated share
+  bright (1 photometers)
+    stable   offset -0.085 [-0.085 to -0.085]  contaminated 0.113  nights 408
+    threshold offset -0.037 [-0.037 to -0.037]  contaminated 0.011  nights 274
+    flag     offset -0.020 [-0.020 to -0.020]  contaminated 0.009  nights 336
+    both     offset -0.033 [-0.033 to -0.033]  contaminated 0.011  nights 266
+    removed  offset -0.390 [-0.390 to -0.390]  contaminated 0.230  nights 127
+  intermediate (12 photometers)
+    stable   offset -0.018 [-0.040 to +0.000]  contaminated 0.055  nights 3040
+    threshold offset -0.005 [-0.103 to +0.037]  contaminated 0.017  nights 2261
+    flag     offset -0.010 [-0.020 to +0.009]  contaminated 0.014  nights 2824
+    both     offset -0.005 [-0.090 to +0.037]  contaminated 0.013  nights 2220
+    removed  offset -0.048 [-0.368 to +0.059]  contaminated 0.171  nights 1049
+  dark (15 photometers)
+    stable   offset -0.035 [-0.105 to -0.002]  contaminated 0.146  nights 6207
+    threshold offset -0.025 [-0.148 to +0.011]  contaminated 0.100  nights 4902
+    flag     offset -0.025 [-0.071 to +0.004]  contaminated 0.068  nights 5487
+    both     offset -0.020 [-0.148 to +0.016]  contaminated 0.087  nights 4673
+    removed  offset -0.068 [-0.098 to -0.020]  contaminated 0.364  nights 3306
+
+selections compared over 28 photometers [95% photometer-cluster interval, 2000 resamples]
+  contaminated share, flag / stable      +0.5091 [+0.3921 to +0.6213]
+  contaminated share, flag - threshold   -0.0134 [-0.0282 to +0.0015]
+  nights, flag / threshold               +1.1644 [+1.0648 to +1.2990]
+  photometers with a lower contaminated share under flag than stable 26, than threshold 19, higher than threshold 4

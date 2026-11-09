@@ -1,0 +1,46 @@
+id,site,source,form,devices,candidates,heldout_robust_sd_C,heldout_median_C
+stars211,Teide Observatory,era5land,temp,4,41176,5.78,0.1
+stars211,Teide Observatory,era5land,linear,4,41176,5.63,0.19
+stars211,Teide Observatory,era5land,brunt,4,41176,7.83,0.38
+stars211,Teide Observatory,era5pl,temp,4,41176,5.63,-0.08
+stars211,Teide Observatory,era5pl,linear,4,41176,3.09,0.26
+stars211,Teide Observatory,era5pl,brunt,4,41176,3.89,0.33
+stars211,Teide Observatory,era5pl6,temp,4,41176,5.56,-0.12
+stars211,Teide Observatory,era5pl6,linear,4,41176,3.25,0.22
+stars211,Teide Observatory,era5pl6,brunt,4,41176,3.97,0.3
+stars211,Teide Observatory,station,temp,4,41176,5.26,0.15
+stars211,Teide Observatory,station,linear,4,41176,3.79,0.09
+stars211,Teide Observatory,station,brunt,4,41176,5.13,0.19
+stars427,Teide Observatory,era5land,temp,3,32547,5.28,0.09
+stars427,Teide Observatory,era5land,linear,3,32547,5.26,0.03
+stars427,Teide Observatory,era5land,brunt,3,32547,6.54,0.26
+stars427,Teide Observatory,era5pl,temp,3,32547,5.29,0.22
+stars427,Teide Observatory,era5pl,linear,3,32547,3.36,0.3
+stars427,Teide Observatory,era5pl,brunt,3,32547,4.09,0.2
+stars427,Teide Observatory,era5pl6,temp,3,32547,5.26,0.22
+stars427,Teide Observatory,era5pl6,linear,3,32547,3.27,0.37
+stars427,Teide Observatory,era5pl6,brunt,3,32547,4.01,0.21
+stars427,Teide Observatory,station,temp,3,32547,4.5,0.48
+stars427,Teide Observatory,station,linear,3,32547,3.57,0.25
+stars427,Teide Observatory,station,brunt,3,32547,5.15,0.03
+stars507,"Pico del Teide, cable-car top station",era5land,temp,1,12843,7.86,-0.08
+stars507,"Pico del Teide, cable-car top station",era5land,linear,1,12843,7.48,-0.21
+stars507,"Pico del Teide, cable-car top station",era5land,brunt,1,12843,7.58,0.13
+stars507,"Pico del Teide, cable-car top station",era5pl,temp,1,12843,7.69,-0.07
+stars507,"Pico del Teide, cable-car top station",era5pl,linear,1,12843,5.93,0.15
+stars507,"Pico del Teide, cable-car top station",era5pl,brunt,1,12843,5.17,0.14
+stars507,"Pico del Teide, cable-car top station",era5pl6,temp,1,12843,7.64,-0.07
+stars507,"Pico del Teide, cable-car top station",era5pl6,linear,1,12843,6.0,0.1
+stars507,"Pico del Teide, cable-car top station",era5pl6,brunt,1,12843,5.21,0.06
+stars507,"Pico del Teide, cable-car top station",station,temp,1,12843,6.32,0.42
+stars507,"Pico del Teide, cable-car top station",station,linear,1,12843,6.53,0.34
+stars507,"Pico del Teide, cable-car top station",station,brunt,1,12843,6.37,0.16
+stars90,Roque de los Muchachos Observatory,era5land,temp,3,55931,4.72,0.35
+stars90,Roque de los Muchachos Observatory,era5land,linear,3,55931,4.47,0.29
+stars90,Roque de los Muchachos Observatory,era5land,brunt,3,55931,4.37,0.23
+stars90,Roque de los Muchachos Observatory,era5pl,temp,3,55931,5.07,0.4
+stars90,Roque de los Muchachos Observatory,era5pl,linear,3,55931,2.61,0.28
+stars90,Roque de los Muchachos Observatory,era5pl,brunt,3,55931,2.76,0.18
+stars90,Roque de los Muchachos Observatory,era5pl6,temp,3,55931,4.64,0.46
+stars90,Roque de los Muchachos Observatory,era5pl6,linear,3,55931,2.72,0.3
+stars90,Roque de los Muchachos Observatory,era5pl6,brunt,3,55931,2.95,0.17

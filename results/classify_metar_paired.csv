@@ -1,0 +1,4 @@
+method,airports,two_test_higher,mean_diff,median_diff,ci_lo,ci_hi
+z_brunt,23,16,0.003696,0.00432,-0.002137,0.008702
+neg_dT,23,20,0.073064,0.059828,0.045049,0.103914
+dashboard,23,19,0.040731,0.033316,0.020197,0.061429

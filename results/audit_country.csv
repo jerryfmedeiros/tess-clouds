@@ -1,0 +1,407 @@
+id,country,lat,lon,status
+stars1,Spain,40.4246043,-3.560279,inside
+stars1001,Germany,48.96233,9.25749,inside
+stars1036,Chile,-29.9160010315524,-71.24234867479828,inside
+stars1051,Chile,-30.2403167,-70.7380498,inside
+stars1057,Ireland,53.65544,-9.36378,inside
+stars15,Spain,38.3149,-5.28355,inside
+stars17,Spain,39.8136576,-6.0051528,inside
+stars18,Spain,40.0418,-1.0163,inside
+stars19,United States,32.223877,-110.767532,inside
+stars2,Spain,41.0013,-2.492408,inside
+stars201,Spain,38.7555,-6.9845,inside
+stars202,Spain,39.3229,-4.9505,inside
+stars209,Belgium,50.7887993,4.8290183,inside
+stars211,Spain,28.2983,-16.51048,inside
+stars213,Mexico,31.0435,-115.4641,inside
+stars214,New Zealand,-41.30503,174.783092,inside
+stars215,Australia,-38.2729806,145.0415361,inside
+stars216,Spain,27.9640934,-15.563285,inside
+stars217,Spain,39.225128,-6.154736,inside
+stars218,Spain,38.189844,-5.957093,inside
+stars219,Namibia,-23.236357,16.36177,inside
+stars220,Argentina,-35.2921798,-69.0125082,inside
+stars221,Argentina,-31.7986065,-69.2977443,inside
+stars222,Portugal,32.7982,-16.879,inside
+stars225,Spain,41.474,-1.4821,inside
+stars226,Spain,41.6226,-0.9315,inside
+stars230,New Zealand,-41.2359161,175.4389767,inside
+stars231,Switzerland,47.287592,8.61902,inside
+stars232,Italy,39.31447,16.751258,inside
+stars233,Spain,38.8827703,-7.0108414,inside
+stars237,Canada,45.42332,-71.125955,inside
+stars238,China,22.2831,114.14,inside
+stars239,France,43.9780846,6.0178799,inside
+stars24,Spain,27.90083333,-15.51472222,inside
+stars241,United Kingdom,55.0858816,-2.2203668,inside
+stars242,Netherlands,52.8128195,6.3959548,inside
+stars243,Netherlands,50.8581,5.8364,inside
+stars246,Spain,37.0641667,-3.3847222,inside
+stars247,Panama,7.802413,-80.7584122,inside
+stars250,Spain,41.6634453,-4.7059933,inside
+stars251,France,-21.267,55.5,inside
+stars252,Russia,55.6992808,36.7587089,inside
+stars254,United Kingdom,53.7254,-1.9054,inside
+stars256,Spain,38.90576111,1.42922222,inside
+stars257,Spain,39.06985833,1.408775,inside
+stars258,United Kingdom,54.986628,-2.51946,inside
+stars259,United Kingdom,55.441199,-1.9892657,inside
+stars267,Russia,56.326248,44.007819,inside
+stars268,Russia,52.2738875,104.2897826,inside
+stars270,Namibia,-23.272947,16.502827,inside
+stars271,Spain,38.742784,-7.2099855,inside
+stars272,Spain,39.0728,-3.6092,inside
+stars273,Malta,35.8768,14.3958,inside
+stars274,Australia,-30.8128416,138.4124252,inside
+stars275,Vietnam,20.99552778,105.81394444,inside
+stars276,India,12.92641667,77.62158333,inside
+stars277,Germany,53.046993,7.553006,inside
+stars286,Spain,40.6538,-4.0570165,inside
+stars288,Spain,38.2197,-6.6318,inside
+stars289,Spain,38.1657813,-2.3268926,inside
+stars29,Argentina,-38.731162,-62.223645,inside
+stars290,Mexico,20.606372,-103.409685,inside
+stars291,Spain,38.189844,-5.957093,inside
+stars292,Spain,38.94898,-5.22753,inside
+stars293,United Kingdom,53.7112863,-2.1546382,inside
+stars294,Spain,40.108614,-5.90385,inside
+stars296,Spain,39.4286111,-5.7841667,inside
+stars297,Spain,41.5454225,-4.7032922,inside
+stars298,Australia,-31.2601,149.2209,inside
+stars301,Spain,42.80858,-1.664658,inside
+stars302,Spain,42.789392873914,-1.6092609314547,inside
+stars304,Spain,42.7390028,-1.439425,inside
+stars305,Spain,43.2159722,-1.5518361,inside
+stars309,Spain,42.808747278627,-0.95504596438776,inside
+stars31,Spain,42.957376960971,-0.8010801264308,inside
+stars311,Australia,-31.2737,149.1567,inside
+stars312,Australia,-31.2737,149.1567,inside
+stars313,Australia,-31.2737,149.1567,inside
+stars314,Australia,-31.079,149.3759,inside
+stars315,Australia,-31.079,149.3759,inside
+stars316,Spain,38.528546,-7.016506,inside
+stars319,Spain,38.32894,-6.951691,inside
+stars320,Spain,38.516705,-7.070783,inside
+stars322,Spain,38.514058,-6.849581,inside
+stars327,Spain,38.068173,-6.539288,inside
+stars33,Spain,40.4478574,-3.6637624,inside
+stars333,Spain,42.86055,-0.924492,inside
+stars334,Spain,42.8062306,-1.0959139,inside
+stars336,Spain,42.6633556,0.0148861,inside
+stars337,Spain,42.905476,-1.0902009,inside
+stars34,Norway,69.3483333,20.365,inside
+stars341,Australia,-32.4552,149.6629,inside
+stars344,Australia,-31.079,149.3759,inside
+stars345,Australia,-30.8422,148.373,inside
+stars347,Israel,30.597378,34.762256,inside
+stars348,Spain,39.8787,4.25623,inside
+stars349,Spain,40.04912,4.05414,inside
+stars35,Slovenia,45.93,13.91,inside
+stars352,Germany,50.137403,9.160547,inside
+stars354,United Kingdom,50.85571,-0.938489,inside
+stars355,Spain,39.51613,-6.61697,inside
+stars356,Chile,-29.986013,-71.361086,inside
+stars359,Chile,-29.983962,-70.988717,inside
+stars36,United States,42.3177194,-72.4757444,inside
+stars361,Australia,-28.25066,152.1396389,inside
+stars366,United Kingdom,50.73648596,-3.531692,inside
+stars367,South Africa,-24.995677,31.588355,inside
+stars369,Germany,50.137403,9.160547,inside
+stars371,New Zealand,-41.23601,175.43977,inside
+stars373,New Zealand,-41.23616,175.483527,inside
+stars375,New Zealand,-40.9934444,175.6196389,inside
+stars376,New Zealand,-41.23592,175.438977,inside
+stars377,France,43.6932618,-1.0315679,inside
+stars378,Spain,41.561767,0.5180167,inside
+stars379,United Kingdom,55.232302,-2.616033,inside
+stars382,Spain,29.037232,-13.624039,inside
+stars383,Spain,28.760962,-17.877906,inside
+stars384,Spain,40.2702,-6.104225,inside
+stars385,Spain,28.29871121,-16.50956893,inside
+stars387,Spain,40.164273,-6.099435,inside
+stars391,Chile,-22.951667,-68.169421,inside
+stars393,Spain,28.2243141477,-16.6269207229,inside
+stars394,Spain,28.756587,-17.885097,inside
+stars396,Spain,39.973661,3.901467,inside
+stars397,Germany,49.338084,7.825421,inside
+stars4,Spain,28.6865,-17.7665,inside
+stars40,Portugal,41.1774241,-8.6059636,inside
+stars400,Germany,50.429859,6.381462,inside
+stars401,Germany,50.52234,6.52818,inside
+stars403,Spain,28.780085,-17.959336,inside
+stars405,Spain,40.125988,-5.816423,inside
+stars408,Spain,28.7226306,-17.8759294,inside
+stars409,Spain,28.6723162333333,-17.7759683666667,inside
+stars41,Portugal,41.1774241,-8.6059636,inside
+stars411,Spain,28.7600512,-17.968284,inside
+stars413,Portugal,37.717913,-25.435424,inside
+stars414,Spain,38.729176,-5.551135,inside
+stars415,Spain,28.4867816333333,-17.8485128,inside
+stars416,Portugal,37.831959,-25.391459,inside
+stars417,Spain,40.325944,-5.814779,inside
+stars420,Spain,40.232795,-6.119029,inside
+stars425,Spain,27.996515,-15.615002,inside
+stars426,Spain,28.29871203,-16.50948217,inside
+stars427,Spain,28.300655,-16.512162,inside
+stars430,Spain,40.233574,-6.120785,inside
+stars431,Spain,38.523357,-7.06921,inside
+stars433,Spain,38.948951,-5.227632,inside
+stars435,Spain,27.995102,-15.615706,inside
+stars436,Spain,39.425377,-5.605103,inside
+stars437,Germany,50.554566,9.697891,inside
+stars44,Spain,40.923742,-1.495649,inside
+stars440,Germany,48.092222,11.458889,inside
+stars443,Portugal,38.516975,-28.314269,inside
+stars444,Portugal,38.71189,-27.324489,inside
+stars445,Portugal,38.661572,-27.242144,inside
+stars446,Portugal,38.530269,-28.531403,inside
+stars455,Australia,-32.4552,149.6629,inside
+stars456,Australia,-32.6331,149.4926,inside
+stars457,Australia,-31.2269,149.3345,inside
+stars459,Australia,-30.358,149.832,inside
+stars460,Australia,-31.2737,149.1567,inside
+stars462,Australia,-31.289,149.309,inside
+stars464,New Zealand,-41.0188889,175.4833333,inside
+stars465,New Zealand,-41.0725,175.631111,inside
+stars467,New Zealand,-41.1072743,175.3284043,inside
+stars468,New Zealand,-41.08388,175.456826,inside
+stars47,Italy,45.202704,11.884872,inside
+stars471,Canada,45.37380198,-71.92304529,inside
+stars472,Canada,46.316627,-74.511577,inside
+stars473,Canada,46.400249,-74.270052,inside
+stars474,Canada,47.666875,-70.627892,inside
+stars475,Canada,47.892432,-70.475605,inside
+stars477,Australia,-30.3116867,139.3358408,inside
+stars48,Spain,40.406135,-3.8385415,inside
+stars480,Germany,49.3967,8.723,inside
+stars482,Germany,53.77139,7.69935,inside
+stars485,Belgium,50.886031,4.073018,inside
+stars486,New Zealand,-41.30503,174.783092,inside
+stars487,Italy,42.7918917,11.891172222,inside
+stars489,Spain,41.0013,-2.492408,inside
+stars493,Portugal,37.801317,-25.162918,inside
+stars495,Spain,40.232396,-6.117092,inside
+stars498,Portugal,39.672854,-31.112752,inside
+stars507,Spain,28.2702272243,-16.638735293,inside
+stars508,Spain,28.314503,-16.41095,inside
+stars509,Chile,-41.486111,-72.893333,inside
+stars51,Spain,40.4180168,-3.5530164,inside
+stars511,Chile,-35.4264,-71.65542,inside
+stars517,Chile,-37.35224,-72.38511,inside
+stars52,Spain,36.8787604,-2.4418338,inside
+stars525,Spain,40.3250858,-5.5839853,inside
+stars529,Germany,50.72414,9.93178,inside
+stars536,Spain,42.6993007,-2.4354974,inside
+stars539,Germany,50.56008,9.68623,inside
+stars54,Australia,-31.2749041,149.0682942,inside
+stars541,Spain,40.34629388,-5.175336163,inside
+stars542,Spain,40.22092366,-5.143692602,inside
+stars543,Spain,40.41896433,-4.563494467,inside
+stars548,Portugal,38.470556,-28.426667,inside
+stars549,Portugal,38.530269,-28.531403,inside
+stars550,Netherlands,52.09796,5.121056,inside
+stars551,Belgium,50.7894444,4.8283333,inside
+stars552,France,43.22712,0.05539,inside
+stars553,France,42.9424895724765,0.28476858113228,inside
+stars555,Spain,40.7038333,-3.94202777,inside
+stars60,Canada,45.734626,-71.676243,inside
+stars602,Spain,40.17222,-5.083611,inside
+stars603,state,69.6614,18.93877,unchecked
+stars608,Spain,41.7735198,2.24019,inside
+stars610,India,27.3316667,88.6097778,inside
+stars611,Andorra,42.49511,1.65619,inside
+stars612,Spain,42.02459,0.734797,inside
+stars613,Spain,42.6633556,0.0148861,inside
+stars62,Spain,42.02459,0.734797,inside
+stars624,Spain,39.8136576,-6.0051528,inside
+stars628,Italy,39.31447,16.751258,inside
+stars631,Spain,42.149844,-8.82673,inside
+stars633,Slovenia,45.8869985,14.431848,inside
+stars634,New Zealand,-41.23616,175.483527,inside
+stars635,Italia,38.4546278,16.0196237,inside
+stars639,Spain,42.017687,0.744085,inside
+stars64,Italy,45.0510358,10.9197606,inside
+stars640,France,43.3773038,-1.7498884,inside
+stars641,Spain,41.066087,-2.6413943,inside
+stars643,Canada,45.428368,-72.61595,inside
+stars645,Canada,45.546983,-73.345384,inside
+stars646,South Africa,-25.9197209467399,27.833343243371,inside
+stars647,United Kingdom,55.3505432,-2.1443856,inside
+stars65,Austria,48.2313945,16.334225,inside
+stars650,Canada,45.59891,-75.108436,inside
+stars651,Canada,46.836641,-79.202949,inside
+stars652,Canada,48.448596,-78.68552,inside
+stars653,Canada,47.109899,-71.363384,inside
+stars654,Canada,45.84042,-71.16255,inside
+stars655,Canada,45.36316,-72.23611,inside
+stars657,Canada,45.42332,-71.125955,inside
+stars66,Spain,39.781004,-6.016262,inside
+stars660,Spain,42.745234,-1.898673,inside
+stars661,Spain,39.328075,-5.500848,inside
+stars665,Spain,38.556045,-6.058116,inside
+stars671,Australia,-24.74084,152.1160103,inside
+stars673,Italy,46.452898,11.462646,inside
+stars676,Italy,46.494533,11.346734,inside
+stars679,Spain,42.80858,-1.664658,inside
+stars685,Portugal,39.08368025960622,-28.01023742216534,inside
+stars688,Spain,38.910159,-5.86373,inside
+stars69,Spain,42.6106406,-8.3708311,inside
+stars692,Portugal,32.6497812,-16.901061,inside
+stars7,Spain,42.81732,-1.64543,inside
+stars70,Spain,28.526452,-14.005022,inside
+stars71,France,43.5681472,1.32719444444444,inside
+stars712,France,-21.136725,55.624078,inside
+stars713,France,-21.2223,55.34375,inside
+stars714,Spain,41.561767,0.5180167,inside
+stars715,Spain,42.112192,0.563138,inside
+stars716,Spain,38.06081346553,-2.9443866165715,inside
+stars717,Spain,41.0013,-2.492408,inside
+stars721,Belgium,51.19,5.226,inside
+stars722,Australia,-28.250664,152.1396389,inside
+stars724,Portugal,38.6889427,-27.2666974,inside
+stars725,United States,43.67085,-110.59948,inside
+stars726,United States,43.4705,-110.7879,inside
+stars727,Argentina,-24.186971,-66.478209,inside
+stars73,Spain,40.349958,-1.170225,inside
+stars737,France,-21.079367,55.383224,inside
+stars746,Spain,40.9535,-0.8932,inside
+stars747,Spain,38.8839498,-7.0043499,inside
+stars749,Spain,40.417323,-1.91062,inside
+stars75,Spain,39.478898,-0.376524,inside
+stars759,Spain,42.306781,2.711439,inside
+stars76,Spain,39.478898,-0.376524,inside
+stars760,Spain,42.155,2.5905,inside
+stars767,Spain,38.32672069649337,-6.53752049269338,inside
+stars772,Spain,38.30043192507705,-6.31765441393359,inside
+stars773,Spain,38.33340977361278,-6.47571666593879,inside
+stars774,Spain,39.07662539897623,-5.81415439513775,inside
+stars778,Spain,38.26611064575491,-6.47417224198613,inside
+stars780,Spain,38.3827224410964,-6.59219800985413,inside
+stars781,Canada,45.37380198,-71.92304529,inside
+stars785,Canada,48.677137,-71.874042,inside
+stars786,Canada,48.560074,-71.763422,inside
+stars787,Canada,48.580039,-70.880287,inside
+stars788,Canada,48.25924,-70.39836,inside
+stars789,Canada,48.264122,-69.945034,inside
+stars790,Canada,48.360433,-68.758354,inside
+stars791,Canada,47.79024,-68.75668,inside
+stars792,Canada,48.94758,-66.12278,inside
+stars793,Spain,38.4115067,-4.89909472,inside
+stars795,Spain,42.1249419,2.4379616,inside
+stars796,United States,36.792759,-113.751543,inside
+stars799,Spain,40.6795886,-2.2530594,inside
+stars8,Spain,42.71167,-1.86509,inside
+stars806,Austria,47.580776,14.593717,inside
+stars807,United Kingdom,54.389662,-0.7454979,inside
+stars808,United Kingdom,54.28646,-0.69163,inside
+stars809,United Kingdom,54.24194,-1.21005,inside
+stars81,Spain,43.34756,-4.0595487,inside
+stars810,Spain,40.469005,-3.863427,inside
+stars816,Spain,38.243135,-7.118323,inside
+stars818,Spain,38.166303,-6.656062,inside
+stars820,Netherlands,52.3827091,4.8878441,inside
+stars83,Sweden,59.267231,18.137398,inside
+stars830,Spain,38.2636111,-6.479688,inside
+stars831,Spain,42.0516894,0.7275013,inside
+stars833,Spain,38.32894,-6.951691,inside
+stars834,Spain,38.142605,-6.687555,inside
+stars835,Spain,38.276969,-6.91978,inside
+stars839,Spain,38.6266355,-7.089198499,inside
+stars84,Spain,42.860683,-2.654928,inside
+stars842,Spain,38.319198,-6.770283,inside
+stars846,Spain,38.366184,-6.789225,inside
+stars85,Spain,40.45098,-3.726072,inside
+stars86,Sweden,64.209031,18.849575,inside
+stars874,France,-20.99229,55.2831568,inside
+stars876,France,-21.1991,55.40974,inside
+stars88,Spain,43.2621711,-2.9486171,inside
+stars89,USA,30.534095,-98.905275,inside
+stars9,Spain,38.409226,-4.894376,inside
+stars90,Spain,28.7639,-17.8937,inside
+stars91,Norway,78.1482472,16.0367348,inside
+stars92,Bulgaria,42.637673,23.295422,inside
+stars926,Switzerland,46.65896639,7.293747381,inside
+stars933,Switzerland,46.735957,7.358295,inside
+stars936,Switzerland,47.7056380159029,8.60972952272319,inside
+stars937,Switzerland,47.044,9.068722,inside
+stars939,Switzerland,47.51957913327739,8.570661,inside
+stars943,Austria,47.84686,16.52425,inside
+stars945,Spain,40.130726,-5.6966,inside
+stars955,France,-20.9301532,55.6520377,inside
+stars967,France,-20.9527611,55.32838015,inside
+stars976,Canada,48.104492,-66.348048,inside
+stars979,Canada,46.316971,-74.51044,inside
+stars980,Canada,46.400249,-74.270052,inside
+stars981,Canada,47.666875,-70.627892,inside
+stars982,Canada,47.892432,-70.475605,inside
+stars983,Germany,52.678,12.247,inside
+stars985,Spain,36.8864,-2.448,inside
+stars986,United Kingdom,54.31583,-2.18168,inside
+stars988,United Kingdom,54.02304266,-2.263000307,inside
+stars990,United Kingdom,54.321284,-2.327463,inside
+stars992,Chile,-33.060792,-71.4438,inside
+stars994,United Kingdom,54.31598,-0.77634,inside
+stars995,Austria,47.92392,13.00749,inside
+stars998,United Kingdom,54.10383,-0.90219,inside
+stars996,United Kingdom,54.20547,-0.97507,inside
+stars989,United Kingdom,54.083584,-2.0054016,inside
+stars999,United Kingdom,54.43723,-0.55026,inside
+stars960,France,-21.06863,55.520515,inside
+stars1000,United Kingdom,54.11269,-0.95049,inside
+stars963,France,-21.0385165,55.2175189,inside
+stars867,Norway,60.2100969,10.7511974,inside
+stars971,France,-20.8935084,55.4118701,inside
+stars927,Switzerland,47.164065,6.989532,inside
+stars1102,Canada,49.828578,-64.334906,inside
+stars1115,Germany,50.523986,10.072122,inside
+stars1046,Germany,49.8595,8.7524,inside
+stars753,Spain,38.223045,-0.719409,inside
+stars1045,Germany,49.84257,8.66189,inside
+stars837,Norway,69.141802,18.132711,inside
+stars1015,Norway,59.72099235,10.2636,inside
+stars892,Spain,28.298809,-16.50946,inside
+stars952,France,-21.3453015,55.48043294,inside
+stars965,France,-21.3658691,55.5502417,inside
+stars803,Austria,47.03107,10.74685,inside
+stars959,France,-21.2747317,55.44099874,inside
+stars1055,New Zealand,-41.142548,175.517641,inside
+stars838,Norway,58.0538887,7.575174,inside
+stars868,Norway,61.135101,12.496945,inside
+stars956,France,-21.2251157,55.32450741,inside
+stars964,France,-21.3628758,55.59637869,inside
+stars975,France,-20.913041,55.47981137,inside
+stars1225,Spain,42.61067,-8.370851,inside
+stars972,France,-20.9398063,55.28287777,inside
+stars944,Austria,47.856147,16.550551,inside
+stars974,France,-20.9222633,55.51952158,inside
+stars991,United Kingdom,54.06980542,-1.997143375,inside
+stars1054,United Kingdom,54.399106,-0.491581,inside
+stars928,Switzerland,46.81497202,7.341398903,inside
+stars1048,Spain,40.59,-1.93,inside
+stars1049,United Kingdom,54.44839,-0.94291,inside
+stars1050,United Kingdom,54.167469,-1.200348,inside
+stars1134,Spain,42.87224,-2.595,inside
+stars1108,Austria,47.53216,14.641271,inside
+stars1155,United Kingdom,55.440235,-1.974568,inside
+stars1170,United States,38.8683205,-107.5920018,inside
+stars1175,United States,37.38821,-115.160577,inside
+stars1202,Switzerland,45.9993056,8.7917222,inside
+stars703,Spain,37.0641667,-3.3847222,inside
+stars705,Israel,31.7758334,35.2,inside
+stars706,Israel,31.7758334,35.2,inside
+stars856,Israel,31.7758334,35.2,inside
+stars854,Israel,31.7758334,35.2,inside
+stars855,Israel,31.7758334,35.2,inside
+stars857,Israel,31.7758334,35.2,inside
+stars910,Spain,28.4118121439192,-16.5506401713701,inside
+stars707,Israel,31.7758334,35.2,inside
+stars930,Switzerland,46.73850608,7.392473855,inside
+stars984,Germany,52.6866,12.44673,inside
+stars1003,Chile,-28.58628788,-70.74937753,inside
+stars701,Spain,41.0013,-2.492408,inside
+stars1411,United States,31.61154,-111.047788,inside
+stars1433,Switzerland,46.231657,9.02409,inside
+stars1431,Switzerland,46.176974,8.788938,inside
+stars1432,Switzerland,46.041231,8.837625,inside
+stars1430,Switzerland,45.954262,8.938359,inside
+stars1434,Switzerland,46.287703,8.499097,inside

@@ -1,0 +1,24 @@
+single-layer BKN/OVC reports 139174 at 27 airports, 56 photometers; held out by airport (5 folds)
+least-squares coefficients on log10 km (mean over folds): intercept -0.4491, D +0.0065, R -0.0413, dpd +0.0967, t2m +0.0186, ovc -0.2188
+
+all: 139174 reports; true classes low 51525, mid 50633, high 37016
+  A        median error 0.48 km [0.47-0.49]  within x2 0.45  rank 0.55  3-class balanced 0.51 [0.50-0.52]
+    rows true, columns predicted: low: 0.79 0.20 0.00; mid: 0.37 0.55 0.09; high: 0.22 0.59 0.19
+  B        median error 0.55 km [0.55-0.58]  within x2 0.51  rank 0.57  3-class balanced 0.51 [0.50-0.51]
+    rows true, columns predicted: low: 0.63 0.35 0.02; mid: 0.22 0.61 0.17; high: 0.11 0.62 0.27
+  typical  median error 0.82 km [0.82-0.85]  within x2 0.37  rank -0.25  3-class balanced 0.33 [0.33-0.33]
+
+non-US airports: 126748 reports; true classes low 50226, mid 47418, high 29104
+  A        median error 0.43 km [0.42-0.44]  within x2 0.46  rank 0.57  3-class balanced 0.50 [0.50-0.51]
+    rows true, columns predicted: low: 0.80 0.20 0.00; mid: 0.34 0.57 0.09; high: 0.22 0.65 0.14
+  B        median error 0.52 km [0.49-0.52]  within x2 0.51  rank 0.58  3-class balanced 0.51 [0.51-0.52]
+    rows true, columns predicted: low: 0.63 0.35 0.02; mid: 0.20 0.63 0.17; high: 0.10 0.63 0.27
+  typical  median error 0.79 km [0.79-0.82]  within x2 0.38  rank -0.28  3-class balanced 0.33 [0.33-0.33]
+
+not part of the fixed design: least squares with input subsets (all reports)
+  ERA5 only (dpd, t2m)     median error 0.46 km  within x2 0.44  rank 0.51  3-class balanced 0.51
+  ERA5 + OVC               median error 0.48 km  within x2 0.44  rank 0.54  3-class balanced 0.51
+  photometer only (D, R)   median error 0.59 km  within x2 0.36  rank 0.29  3-class balanced 0.38
+  photometer + OVC         median error 0.59 km  within x2 0.37  rank 0.31  3-class balanced 0.40
+  full (model A)           median error 0.48 km  within x2 0.45  rank 0.55  3-class balanced 0.51
+  rank of D with height within dew-point-depression quintiles: 0.19, 0.29, 0.30, 0.29, 0.26

@@ -1,0 +1,28 @@
+group,id_a,id_b,common_bins,corr_sky,mag_a,mag_b
+placeholder (Hebrew University of Jerusalem),stars705,stars706,61013,0.745,17.96,17.1
+placeholder (Hebrew University of Jerusalem),stars705,stars707,160714,0.699,17.96,18.2
+placeholder (Hebrew University of Jerusalem),stars705,stars854,86122,0.84,17.96,17.12
+placeholder (Hebrew University of Jerusalem),stars705,stars855,54019,0.86,17.96,17.41
+placeholder (Hebrew University of Jerusalem),stars705,stars856,70154,0.816,17.96,17.82
+placeholder (Hebrew University of Jerusalem),stars705,stars857,136289,0.858,17.96,17.01
+placeholder (Hebrew University of Jerusalem),stars706,stars707,132797,0.812,17.1,18.2
+placeholder (Hebrew University of Jerusalem),stars706,stars854,68614,0.783,17.1,17.12
+placeholder (Hebrew University of Jerusalem),stars706,stars855,108165,0.842,17.1,17.41
+placeholder (Hebrew University of Jerusalem),stars706,stars856,115689,0.711,17.1,17.82
+placeholder (Hebrew University of Jerusalem),stars706,stars857,130720,0.81,17.1,17.01
+placeholder (Hebrew University of Jerusalem),stars707,stars854,112395,0.851,18.2,17.12
+placeholder (Hebrew University of Jerusalem),stars707,stars855,133930,0.885,18.2,17.41
+placeholder (Hebrew University of Jerusalem),stars707,stars856,167831,0.871,18.2,17.82
+placeholder (Hebrew University of Jerusalem),stars707,stars857,227578,0.802,18.2,17.01
+placeholder (Hebrew University of Jerusalem),stars854,stars855,65380,0.89,17.12,17.41
+placeholder (Hebrew University of Jerusalem),stars854,stars856,83383,0.865,17.12,17.82
+placeholder (Hebrew University of Jerusalem),stars854,stars857,106569,0.871,17.12,17.01
+placeholder (Hebrew University of Jerusalem),stars855,stars856,148475,0.892,17.41,17.82
+placeholder (Hebrew University of Jerusalem),stars855,stars857,140549,0.891,17.41,17.01
+placeholder (Hebrew University of Jerusalem),stars856,stars857,169330,0.861,17.82,17.01
+shared site stars75/76,stars75,stars76,309158,0.997,17.66,17.59
+shared site stars40/41,stars40,stars41,279148,0.991,17.53,17.72
+shared site stars312/313,stars312,stars313,186660,0.993,21.33,21.43
+shared site Villaverde del Ducado,stars2,stars489,106052,0.922,20.68,20.73
+shared site Villaverde del Ducado,stars2,stars717,48539,0.964,20.68,20.48
+shared site Villaverde del Ducado,stars489,stars717,190053,0.973,20.73,20.48

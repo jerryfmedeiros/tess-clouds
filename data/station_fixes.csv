@@ -1,0 +1,14 @@
+# Corrections to the positions in the STARS4ALL archive headers, applied by fetch_tess_archive.py --select.
+# stars425: the header gives 27.996515, -1.5615002 (Adrar, Algeria); the site name is Tejeda (Gran Canaria),
+# whose latitude it matches. The longitude has its decimal point moved: -15.615002. Check: at -15.615 the
+# dusk sky passes 17 mag with the Sun at -9.7 deg in 2023, as at Teide (-9.8) and La Palma (-9.8); at -1.56
+# no dusk crossing falls in the twilight window at all.
+# stars336: the header gives 442.6633556, 0.0148861, a latitude outside -90..90; the site name is Refugio de Goriz
+# (Ordesa y Monte Perdido, Huesca), whose position is 42.663 N, 0.015 E: the latitude has a repeated leading digit.
+# Check: ASTER GDEM (OpenTopoData) gives 2191 m at the corrected position, a high-mountain refuge site.
+id,lat,lon,location,reason
+stars425,27.996515,-15.615002,Tejeda / Gran Canaria / Las Palmas / Canary Islands / Spain,archive longitude with misplaced decimal point
+stars336,42.6633556,0.0148861,Refugio de Goriz - Parque Nacional de Ordesa y Monte Perdido / Fanlo / Sobrarbe / Aragon / Spain,archive latitude with a repeated leading digit
+stars397,49.338084,7.825421,"Sternparkprojekt Pfälzerwald, Johanniskreuz / Kaiserslautern / Unknown / Unknown / Germany",archive latitude missing its leading digit (9.338084 is in Nigeria; the location string and the longitude put the site at Johanniskreuz)
+stars403,28.780085,-17.959336,Iniciativa AstroNorte / Las Tricias-Garafía / Unknown / Unknown / Spain,archive longitude with misplaced decimal point (-1.796 is in Algeria; Las Tricias on La Palma is at 17.96 W)
+stars411,28.7600512,-17.968284,SkyPalma SL / Puntagorda / Unknown / Unknown / Spain,archive longitude with misplaced decimal point (-1.797 is in Algeria; Puntagorda on La Palma is at 17.97 W)

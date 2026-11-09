@@ -1,0 +1,59 @@
+tab_data
+  METAR 27 airports 2019-01..2026-09 photometers 56 reports 749917 nights 40083
+  goes Americas 2021-11..2026-09 photometers 65 matched 612068
+  msg Europe, Africa 2019-01..2026-09 photometers 284 matched 5501485
+  viirs global 2019-01..2026-09 photometers 384 matched 403081
+tab_qc
+  Infrared never usable | error code or no reading in nearly every reading | photometer excluded | 4 photometers
+  Obstructed field of view | 95th percentile of ERA5-Land air minus sky temperature below 8~K | photometer excluded | 8 photometers
+  Obstructed in some months | the same test in each calendar month with at least 500 dark bins | months flagged and left out of the baseline fit; scores given with and without | 164 months, 31 photometers
+  Device change | MAC address in the monthly header, checked against the network register | one baseline offset per device | 31 photometers with two or more devices
+  Two devices under one name | message counters running at the same time | months removed | 2 months, 1 photometer
+  Recorded away from the position used | header position more than 5~km away, or none for a device that never states it | months removed | 78 months, 9 photometers
+  Placeholder position | one position shared by photometers whose skies differ | photometer excluded | 7 photometers
+  Position typing error | latitude or longitude evidently mistyped in the archive | position corrected | 5 photometers
+  No clear-sky baseline | no ERA5-Land cell at the site, or no clear candidate bin | photometer excluded | 3 photometers
+  Weak clear-sky baseline | held-out clear-sky SD above the network's upper Tukey fence (7.20~K) | scores given with and without | 26 photometers
+tab_metar
+  two_test: BA 0.872 [0.868--0.875] cluster (0.855--0.895) splits 0.877, 0.872--0.880 hit 0.880 FA 0.136 AUC --
+  z_brunt: BA 0.863 [0.859--0.867] cluster (0.847--0.886) splits 0.867, 0.863--0.871 hit 0.854 FA 0.128 AUC 0.920
+  z_linear: BA 0.844 [0.840--0.848] cluster (0.813--0.873) splits 0.845, 0.840--0.851 hit 0.822 FA 0.134 AUC 0.911
+  neg_dT: BA 0.839 [0.836--0.844] cluster (0.805--0.855) splits 0.837, 0.832--0.843 hit 0.791 FA 0.112 AUC 0.906
+  sky_med: BA 0.757 [0.752--0.763] cluster (0.694--0.786) splits 0.758, 0.754--0.763 hit 0.689 FA 0.174 AUC 0.833
+  s5_excess: BA 0.722 [0.718--0.727] cluster (0.698--0.746) splits 0.726, 0.721--0.730 hit 0.721 FA 0.277 AUC 0.784
+  dfa_f20: BA 0.676 [0.671--0.682] cluster (0.663--0.697) splits 0.666, 0.660--0.676 hit 0.677 FA 0.325 AUC 0.736
+  d30: BA 0.653 [0.648--0.658] cluster (0.637--0.687) splits 0.642, 0.634--0.653 hit 0.648 FA 0.343 AUC 0.715
+  vis15: BA 0.720 [0.716--0.724] cluster (0.707--0.738) splits 0.718, 0.713--0.721 hit 0.822 FA 0.382 AUC 0.778
+  dashboard: BA 0.821 [0.817--0.825] cluster (0.780--0.861) splits 0.821 hit 0.695 FA 0.053 AUC --
+  alarcon: BA 0.500 cluster (0.500--0.501) splits 0.500 hit 1.000 FA 1.000 AUC --
+  always_clear: BA 0.500 cluster -- splits 0.500 hit 0.000 FA 0.000 AUC --
+  cavok_all: photometers 56 reports 594283 BA 0.898 [0.896--0.901] cluster (0.880--0.914) hit 0.880 FA 0.083
+  cavok_left: photometers 8 reports 58014 BA 0.889 [0.883--0.894] cluster (0.831--0.926) hit 0.883 FA 0.106
+  thinned to one report per 30min slot per airport: reports 465058 (cloudy 329721); two_test BA 0.867 (0.845-0.894) hit 0.860 FA 0.125; z_brunt BA 0.860 (0.839-0.883) hit 0.836 FA 0.115; neg_dT BA 0.840 (0.810-0.858) hit 0.855 FA 0.175; dashboard BA 0.841 (0.819-0.862) hit 0.753 FA 0.071
+  per airport (23 of 27 with >= 100 clear and cloudy reports): two_test mean 0.869, median 0.881, min 0.765 (LSGC), max 0.958 (EHBK); dashboard mean 0.829, median 0.838; largest share of the scored reports KJAC 0.391 (median interval 5 min, 2 photometers)
+tab_agree
+  goes reports 4960 consensus 4514: 0.856 [0.814--0.892] | 0.901 [0.868--0.931] | 0.862 [0.819--0.897] | 0.929 [0.894--0.963] ; cluster (0.746--0.866) | (0.843--0.920) | (0.758--0.883) | (0.827--0.940)
+  msg reports 236510 consensus 197550: 0.825 [0.821--0.830] | 0.889 [0.887--0.892] | 0.767 [0.762--0.771] | 0.914 [0.911--0.917] ; cluster (0.795--0.849) | (0.859--0.912) | (0.721--0.799) | (0.887--0.935)
+  viirs reports 18202 consensus 16433: 0.835 [0.826--0.842] | 0.889 [0.883--0.895] | 0.891 [0.885--0.896] | 0.937 [0.933--0.941] ; cluster (0.809--0.859) | (0.864--0.911) | (0.865--0.912) | (0.913--0.957)
+tab_sat
+  goes primary: photometers 52 scans 284960 two-test 0.797 [0.795--0.800] cluster (0.760--0.827) hit 0.701 FA 0.106 baseline 0.790 dashboard 0.770
+  goes primary_qc: photometers 41 scans 250802 two-test 0.830 [0.827--0.833] cluster (0.804--0.853) hit 0.770 FA 0.110 baseline 0.826 dashboard 0.766
+  goes metar: photometers 3 scans 13819 two-test 0.863 [0.853--0.873] cluster (0.847--0.873) hit 0.831 FA 0.104 baseline 0.866 dashboard 0.825
+  goes snow: photometers 35 scans 137013 two-test 0.769 [0.764--0.774] cluster (0.717--0.822) hit 0.761 FA 0.222 baseline 0.772 dashboard 0.761
+  goes mountain: photometers 12 scans 77236 two-test 0.715 [0.708--0.721] cluster (0.668--0.804) hit 0.453 FA 0.024 baseline 0.689 dashboard 0.602
+  msg primary: photometers 258 scans 3950266 two-test 0.758 [0.757--0.759] cluster (0.744--0.771) hit 0.687 FA 0.172 baseline 0.756 dashboard 0.734
+  msg primary_qc: photometers 249 scans 3817719 two-test 0.768 [0.766--0.769] cluster (0.755--0.779) hit 0.707 FA 0.172 baseline 0.768 dashboard 0.734
+  msg metar: photometers 38 scans 579203 two-test 0.778 [0.775--0.780] cluster (0.759--0.794) hit 0.751 FA 0.196 baseline 0.782 dashboard 0.766
+  msg snow: photometers 144 scans 223823 two-test 0.754 [0.749--0.760] cluster (0.726--0.780) hit 0.830 FA 0.322 baseline 0.773 dashboard 0.742
+  msg mountain: photometers 26 scans 361599 two-test 0.654 [0.651--0.658] cluster (0.620--0.702) hit 0.424 FA 0.116 baseline 0.645 dashboard 0.590
+  viirs primary: photometers 347 scans 248227 two-test 0.823 [0.821--0.824] cluster (0.811--0.833) hit 0.707 FA 0.061 baseline 0.807 dashboard 0.777
+  viirs primary_qc: photometers 322 scans 236404 two-test 0.838 [0.836--0.839] cluster (0.828--0.847) hit 0.736 FA 0.060 baseline 0.825 dashboard 0.777
+  viirs metar: photometers 53 scans 39053 two-test 0.855 [0.852--0.858] cluster (0.838--0.868) hit 0.764 FA 0.055 baseline 0.848 dashboard 0.817
+  viirs snow: photometers 190 scans 28536 two-test 0.746 [0.739--0.753] cluster (0.717--0.776) hit 0.721 FA 0.230 baseline 0.745 dashboard 0.709
+  viirs mountain: photometers 37 scans 18779 two-test 0.796 [0.790--0.801] cluster (0.767--0.818) hit 0.620 FA 0.028 baseline 0.761 dashboard 0.696
+counts: METAR countries 13: RE 13 photometers 2 airports, AU 10 photometers 3 airports, CH 8 photometers 4 airports, ES 7 photometers 3 airports, BE 4 photometers 3 airports, FR 3 photometers 3 airports, CA 3 photometers 2 airports, GB 3 photometers 2 airports, NZ 2 photometers 1 airports, US 2 photometers 1 airports, DE 1 photometers 1 airports, NL 1 photometers 1 airports, SE 1 photometers 1 airports
+counts: photometers with a clear-sky baseline 384, of which weak-baseline flag 26
+counts: co-located pairs, flagged over unflagged clear-sky SD: stars472/stars979 11.63/5.08 = 2.29, stars474/stars981 8.96/3.74 = 2.39, stars475/stars982 8.25/4.08 = 2.02, stars657/stars237 10.98/6.45 = 1.70; ratio 1.7-2.4
+counts: all pairs of record photometers within 0.2 km (43): both flagged 1 (stars473/stars980 12.06/13.14); one flagged 5 (stars237/stars657 6.45/10.98, stars301/stars679 4.53/7.87, stars472/stars979 11.63/5.08, stars474/stars981 8.96/3.74, stars475/stars982 8.25/4.08); neither flagged 37
+counts: latitude 45 deg or more (north or south): weak-flagged 19 of 26 (0.73); all record photometers 123 of 384 (0.32)
+counts: photometers with no clear-sky baseline stars1411, stars498, stars685

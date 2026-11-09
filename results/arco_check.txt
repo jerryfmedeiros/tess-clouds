@@ -1,0 +1,4 @@
+europe_2019-01_2019-04.nc: 24 hours, 7 levels, 260x144 points, 6289920 values
+temperature ARCO-CDS (K): mean 0.000113 max|d| 0.000854
+relative humidity ARCO(IFS formula)-CDS (%): mean -0.030887 SD 0.674559 p99|d| 2.313248 max|d| 50.180278
+dew point as mountain_baseline.py computes it, ARCO-CDS (C): mean -0.005819 SD 0.263667 p95|d| 0.417346 p99|d| 0.996355

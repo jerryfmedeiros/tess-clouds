@@ -1,0 +1,20 @@
+photometers 56 at 27 airports, reports scored 749917 (cloudy 476886, clear 273031), nights 40083 (local solar date); 58 photometers paired, 2 with no scored report
+held-out (grouped 5-fold by airport); 95% night-block bootstrap on the primary split, then the airport-cluster interval in parentheses; mean and range over 20 splits
+z_brunt       BA 0.863 [0.859-0.867] (0.847-0.886)  splits 0.867 (0.863-0.871)  hit 0.854  FA 0.128  FEW/SCT cloudy 0.413095
+z_linear      BA 0.844 [0.840-0.848] (0.813-0.873)  splits 0.845 (0.840-0.851)  hit 0.822  FA 0.134  FEW/SCT cloudy 0.420565
+sky_med       BA 0.757 [0.752-0.763] (0.694-0.786)  splits 0.758 (0.754-0.763)  hit 0.689  FA 0.174  FEW/SCT cloudy 0.603555
+neg_dT        BA 0.839 [0.836-0.844] (0.805-0.855)  splits 0.837 (0.832-0.843)  hit 0.791  FA 0.112  FEW/SCT cloudy 0.522111
+s5_excess     BA 0.722 [0.718-0.727] (0.698-0.746)  splits 0.726 (0.721-0.730)  hit 0.721  FA 0.277  FEW/SCT cloudy 0.615645
+d30           BA 0.653 [0.648-0.658] (0.637-0.687)  splits 0.642 (0.634-0.653)  hit 0.648  FA 0.343  FEW/SCT cloudy 0.606867
+dfa_f20       BA 0.676 [0.671-0.682] (0.663-0.697)  splits 0.666 (0.660-0.676)  hit 0.677  FA 0.325  FEW/SCT cloudy 0.689723
+vis15         BA 0.720 [0.716-0.724] (0.707-0.738)  splits 0.718 (0.713-0.721)  hit 0.822  FA 0.382  FEW/SCT cloudy 0.743316
+two_test      BA 0.872 [0.868-0.875] (0.855-0.895)  splits 0.877 (0.872-0.880)  hit 0.880  FA 0.136  FEW/SCT cloudy 0.493798
+dashboard     BA 0.821 [0.817-0.825] (0.780-0.861)  splits 0.821 (0.821-0.821)  hit 0.695  FA 0.053  FEW/SCT cloudy 0.334719
+alarcon       BA 0.500 [0.500-0.500] (0.500-0.501)  splits 0.500 (0.500-0.500)  hit 1.000  FA 1.000  FEW/SCT cloudy 0.999904
+always_clear  BA 0.500 [0.500-0.500] (0.500-0.500)  splits 0.500 (0.500-0.500)  hit 0.000  FA 0.000  FEW/SCT cloudy 0.0
+AUC: z_brunt 0.920, z_linear 0.911, sky_med 0.833, neg_dT 0.906, s5_excess 0.784, d30 0.715, dfa_f20 0.736, vis15 0.778
+thinned to one report per 30min slot per airport: reports 465058 (cloudy 329721); two_test BA 0.867 (0.845-0.894) hit 0.860 FA 0.125; z_brunt BA 0.860 (0.839-0.883) hit 0.836 FA 0.115; neg_dT BA 0.840 (0.810-0.858) hit 0.855 FA 0.175; dashboard BA 0.841 (0.819-0.862) hit 0.753 FA 0.071
+FEW/SCT counted cloudy (the basis of Ahn et al. 2015): reports 864634 (cloudy 591603); two_test BA 0.834 (0.805-0.861) hit 0.805 FA 0.136; z_brunt BA 0.820 (0.796-0.847) hit 0.769 FA 0.128; dashboard BA 0.786 (0.751-0.823) hit 0.625 FA 0.053
+paired by airport (two-test minus method, airports with >= 100 of each class): z_brunt higher at 16 of 23, mean +0.004 (-0.002 to +0.009), median +0.004; neg_dT higher at 20 of 23, mean +0.073 (+0.045 to +0.104), median +0.060; dashboard higher at 19 of 23, mean +0.041 (+0.020 to +0.061), median +0.033
+per airport (23 of 27 with >= 100 clear and cloudy reports): two_test mean 0.869, median 0.881, min 0.765 (LSGC), max 0.958 (EHBK); dashboard mean 0.829, median 0.838; largest share of the scored reports KJAC 0.391 (median interval 5 min, 2 photometers)
+final two-test: z_brunt > 2.529 or s5_excess > 0.361

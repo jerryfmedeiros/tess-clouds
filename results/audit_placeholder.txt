@@ -1,0 +1,5 @@
+placeholder (Hebrew University of Jerusalem): 7 photometers; median dark-sky brightness 17.01-18.20 mag (largest difference 1.19); sky-temperature correlation 0.70-0.89 over 21 pairs
+shared site stars75/76: 2 photometers; median dark-sky brightness 17.59-17.66 mag (largest difference 0.07); sky-temperature correlation 1.00-1.00 over 1 pairs
+shared site stars40/41: 2 photometers; median dark-sky brightness 17.53-17.72 mag (largest difference 0.19); sky-temperature correlation 0.99-0.99 over 1 pairs
+shared site stars312/313: 2 photometers; median dark-sky brightness 21.33-21.43 mag (largest difference 0.10); sky-temperature correlation 0.99-0.99 over 1 pairs
+shared site Villaverde del Ducado: 3 photometers; median dark-sky brightness 20.48-20.73 mag (largest difference 0.25); sky-temperature correlation 0.92-0.97 over 3 pairs

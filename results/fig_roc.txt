@@ -1,0 +1,9 @@
+reports 749917 (cloudy 476886, clear 273031)
+AUC
+  z_brunt    0.920
+  neg_dT     0.906
+  sky_med    0.833
+operating points (false alarm, hit)
+  two_test   0.136 0.880
+  dashboard  0.053 0.695
+  alarcon    1.000 1.000

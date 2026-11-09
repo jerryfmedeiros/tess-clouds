@@ -1,0 +1,326 @@
+id,icao,airport,country,km
+stars1,LEMD,Adolfo Suárez Madrid–Barajas Airport,ES,7.72
+stars1,LETO,Madrid–Torrejón Airport / Torrejón Air Base,ES,11.23
+stars1,LECU,Madrid-Cuatro Vientos Airport,ES,19.96
+stars1000,EGNU,Full Sutton Airfield,GB,15.72
+stars1001,EDSX,Völkleshofen-Lichtenberg Airfield,DE,8.81
+stars1001,EDTQ,Pattonville Airfield,DE,11.17
+stars1001,EDSH,Backnang-Heiningen Airfield,DE,15.2
+stars1003,SCLL,Vallenar Airport,CL,1.3
+stars1015,ENHS,Hokksund Airfield,NO,19.76
+stars1036,SCSE,La Florida Airport,CL,4.13
+stars1045,EDES,August Euler Airfield,DE,5.56
+stars1045,EDFE,Frankfurt-Egelsbach Airport,DE,13.13
+stars1046,EDES,August Euler Airfield,DE,11.93
+stars1046,EDFE,Frankfurt-Egelsbach Airport,DE,13.65
+stars1050,EGNG,Bagby Thirsk Airfield,GB,7.72
+stars1050,EGXZ,RAF Topcliffe,GB,12.4
+stars1055,NZPW,Papawai Airfield,NZ,4.52
+stars1055,NZMT,Martinborough Airport,NZ,8.4
+stars1102,CYPN,Port-Menier Airport,CA,3.43
+stars1108,LOGI,Trieben Airfield,AT,11.76
+stars1115,EDER,Wasserkuppe Airfield,DE,8.8
+stars1134,LEVT,Vitoria Airport,ES,10.61
+stars1202,LSZA,Lugano Airport,CH,9.2
+stars1202,LSZL,Locarno Airport,CH,19.36
+stars1225,LEBI,Beariz Airfield Forest Fire Base,ES,16.81
+stars1430,LSZA,Lugano Airport,CH,5.96
+stars1431,LSZL,Locarno Airport,CH,7.11
+stars1432,LSZA,Lugano Airport,CH,6.97
+stars1432,LSZL,Locarno Airport,CH,13.86
+stars1433,LSPR,Lodrino Air Base,CH,7.55
+stars1433,LSZL,Locarno Airport,CH,13.56
+stars15,LEFU,Aeródromo de Fuente Obejuna,ES,10.96
+stars19,KDMA,Davis Monthan Air Force Base,US,12.6
+stars2,LESZ,Aeródromo de Sigüenza,ES,12.45
+stars201,LEEM,El Manantío Airfield,ES,2.51
+stars201,LEPN,Campo de Vuelo Casimiro Patiño,ES,5.68
+stars209,EBBE,Beauvechain Air Base,BE,5.43
+stars209,EBTN,Goetsenhoven Airfield,BE,9.09
+stars209,EBAV,Avernas-le-Bauduin Ultralight Airfield,BE,19.15
+stars214,NZWN,Wellington International Airport,NZ,3.13
+stars215,YTYA,Tyabb Airport,AU,12.06
+stars216,GCLP,Gran Canaria Airport,ES,17.72
+stars218,LEGC,Altarejos-Guadalcanal Private Airfield,ES,19.12
+stars222,LPMA,Cristiano Ronaldo International Airport,PT,14.83
+stars226,LEZG,Zaragoza Airport,ES,10.35
+stars226,LEWG,Aerodromo de Villanueva de Gallego,ES,19.4
+stars230,NZMT,Martinborough Airport,NZ,4.61
+stars230,NZPW,Papawai Airfield,NZ,15.54
+stars231,LSZN,Hausen am Albis Airfield,CH,9.52
+stars231,LSMD,Dübendorf Air Base,CH,12.54
+stars231,LSZK,Speck-Fehraltorf Airfield,CH,14.37
+stars231,LSZH,Zürich Airport,CH,19.69
+stars233,LEEM,El Manantío Airfield,ES,11.83
+stars233,LEBZ,Badajoz Airport,ES,16.43
+stars233,LEPN,Campo de Vuelo Casimiro Patiño,ES,19.7
+stars238,VHSK,Shek Kong Air Base,HK,18.15
+stars239,LFMX,Château-Arnoux-Saint-Auban Airfield,FR,9.35
+stars239,LFTP,Puimoisson Airfield,FR,16.8
+stars24,GCLP,Gran Canaria Airport,ES,13.05
+stars24,GCLB,El Berriel Aeroc Airport,ES,13.18
+stars242,EHHO,Hoogeveen Airfield,NL,12.19
+stars243,EHBK,Maastricht Aachen Airport,NL,7.54
+stars243,ETNG,Geilenkirchen Air Base,DE,18.41
+stars243,EBSL,Zutendaal Air Base,BE,19.82
+stars250,LEVD,Valladolid Airport,ES,13.01
+stars250,LETZ,Torozos Airfield,ES,18.9
+stars251,FMEP,Saint-Pierre Pierrefonds Airport,RE,9.92
+stars252,UUMB,Kubinka Air Base,RU,11.89
+stars256,LEIB,Ibiza Airport,ES,6.08
+stars258,EGOM,RAF Spadeadam,GB,7.31
+stars258,EGNC,Carlisle Lake District Airport,GB,19.28
+stars267,UWGG,Nizhny Novgorod / Strigino International Airport,RU,17.6
+stars268,UIII,Irkutsk International Airport,RU,7.24
+stars268,UIIR,Irkutsk Northwest Airport,RU,12.69
+stars271,LEPN,Campo de Vuelo Casimiro Patiño,ES,18.7
+stars271,LEEM,El Manantío Airfield,ES,19.37
+stars273,LMML,Malta International Airport,MT,9.29
+stars275,VVGL,Gia Lam Air Base,VN,9.0
+stars276,VOBG,HAL Airport,IN,5.69
+stars276,VOJK,Jakkur Aerodrome,IN,16.92
+stars29,SAZB,Comandante Espora Airport,AR,4.76
+stars290,MMGL,Guadalajara International Airport,MX,13.88
+stars290,MMZP,Zapopan Air Force Base,MX,16.67
+stars291,LEGC,Altarejos-Guadalcanal Private Airfield,ES,19.12
+stars297,LEOA,Aeródromo forestal de Mojados,ES,8.9
+stars297,LETC,Matilla De Los Caños Airfield,ES,18.53
+stars298,YCBB,Coonabarabran Airport,AU,9.16
+stars301,LEPP,Pamplona Airport,ES,4.54
+stars302,LEPP,Pamplona Airport,ES,3.72
+stars304,LEUM,Lumbier Airfield,ES,13.8
+stars304,LEPP,Pamplona Airport,ES,17.24
+stars305,LFIX,Itxassou Airfield,FR,17.11
+stars311,YCBB,Coonabarabran Airport,AU,12.35
+stars312,YCBB,Coonabarabran Airport,AU,12.35
+stars313,YCBB,Coonabarabran Airport,AU,12.35
+stars316,LEPN,Campo de Vuelo Casimiro Patiño,ES,19.76
+stars33,LEMD,Adolfo Suárez Madrid–Barajas Airport,ES,9.25
+stars33,LECU,Madrid-Cuatro Vientos Airport,ES,13.39
+stars33,LEGT,Getafe Air Base,ES,17.84
+stars33,LETO,Madrid–Torrejón Airport / Torrejón Air Base,ES,18.06
+stars341,YMDG,Mudgee Airport,AU,13.18
+stars341,YGGG,Gulgong Aero Park Airport,AU,19.93
+stars345,YFBR,Fairey Bower Airfield,AU,12.93
+stars345,YCNM,Coonamble Airport,AU,15.43
+stars347,LLMR,Mitzpe Ramon Airfield,IL,7.3
+stars348,LESL,Sant Lluis Airfield,ES,1.91
+stars348,LEMH,Menorca Airport,ES,3.67
+stars35,LJAJ,Ajdovščina Airfield,SI,4.88
+stars352,EDFG,Gelnhausen Airfield,DE,6.61
+stars354,EGHR,Goodwood Aerodrome,GB,12.53
+stars354,EGHF,Solent Airport,GB,19.16
+stars356,SCQT,Las Tacas Airport,CL,12.28
+stars356,SCSE,La Florida Airport,CL,17.4
+stars36,KCEF,Westover Metropolitan Airport / Westover Air Reserve Base,US,14.59
+stars366,EGTE,Exeter International Airport,GB,8.29
+stars367,FASZ,Skukuza Airport,ZA,3.87
+stars367,FASE,Sabi Sabi Airport,ZA,15.05
+stars369,EDFG,Gelnhausen Airfield,DE,6.61
+stars371,NZMT,Martinborough Airport,NZ,4.56
+stars371,NZPW,Papawai Airfield,NZ,15.53
+stars373,NZMT,Martinborough Airport,NZ,2.45
+stars373,NZPW,Papawai Airfield,NZ,14.76
+stars375,NZMS,Hood Airport,NZ,2.44
+stars375,NZPW,Papawai Airfield,NZ,15.85
+stars376,NZMT,Martinborough Airport,NZ,4.61
+stars376,NZPW,Papawai Airfield,NZ,15.54
+stars377,LFBY,Dax Seyresse Airfield,FR,3.03
+stars378,LEDA,Lleida-Alguaire Airport,ES,18.56
+stars382,GCRR,César Manrique-Lanzarote Airport,ES,10.36
+stars383,GCLA,La Palma Airport,ES,19.13
+stars391,SCPE,San Pedro de Atacama Airport,CL,3.52
+stars394,GCLA,La Palma Airport,ES,19.2
+stars4,GCLA,La Palma Airport,ES,6.76
+stars40,LPPR,Francisco de Sá Carneiro Airport,PT,10.08
+stars40,LPVL,Vilar de Luz Airfield,PT,13.4
+stars400,EBBN,Büllingen Airfield,BE,7.62
+stars400,EDKV,Dahlemer Binz Airfield,DE,10.87
+stars400,EBLB,Elsenborn Air Base,BE,15.32
+stars401,EDKV,Dahlemer Binz Airfield,DE,12.93
+stars401,EDRV,Wershofen/Eifel Airfield,DE,19.73
+stars408,GCLA,La Palma Airport,ES,15.88
+stars409,GCLA,La Palma Airport,ES,5.47
+stars41,LPPR,Francisco de Sá Carneiro Airport,PT,10.08
+stars41,LPVL,Vilar de Luz Airfield,PT,13.4
+stars415,GCLA,La Palma Airport,ES,17.99
+stars437,EDER,Wasserkuppe Airfield,DE,19.15
+stars440,EDMO,Oberpfaffenhofen Airport,DE,13.11
+stars440,EDMD,Dachau-Gröbenried Airfield,DE,15.42
+stars440,EDNX,Schleissheim Airfield,DE,17.96
+stars443,LPPI,Pico Airport,PT,11.8
+stars445,LPLA,Lajes Airport,PT,17.22
+stars446,LPPI,Pico Airport,PT,8.28
+stars446,LPHR,Horta Airport,PT,16.09
+stars455,YMDG,Mudgee Airport,AU,13.18
+stars455,YGGG,Gulgong Aero Park Airport,AU,19.93
+stars456,YMDG,Mudgee Airport,AU,13.32
+stars457,YCBB,Coonabarabran Airport,AU,13.38
+stars459,YNBR,Narrabri Airport,AU,4.34
+stars460,YCBB,Coonabarabran Airport,AU,12.35
+stars462,YCBB,Coonabarabran Airport,AU,6.27
+stars464,NZPW,Papawai Airfield,NZ,9.57
+stars464,NZMS,Hood Airport,NZ,13.61
+stars465,NZMS,Hood Airport,NZ,10.89
+stars465,NZPW,Papawai Airfield,NZ,11.51
+stars465,NZMT,Martinborough Airport,NZ,19.9
+stars467,NZPW,Papawai Airfield,NZ,14.41
+stars467,NZMT,Martinborough Airport,NZ,17.76
+stars468,NZPW,Papawai Airfield,NZ,4.28
+stars468,NZMT,Martinborough Airport,NZ,14.7
+stars468,NZMS,Hood Airport,NZ,19.23
+stars47,LION,Dominio di Bagnoli Airfield,IT,3.0
+stars471,CYSC,Sherbrooke Airport,CA,19.47
+stars477,YARK,Arkaroola Airport,AU,10.61
+stars477,YWLN,Wooltana Airport,AU,15.56
+stars48,LECU,Madrid-Cuatro Vientos Airport,ES,6.0
+stars48,LEGT,Getafe Air Base,ES,15.8
+stars480,EDGX,Walldorf Airfield,DE,11.4
+stars480,EDFX,Hockenheim Airfield,DE,16.16
+stars480,EDFM,Mannheim-City Airport,DE,17.32
+stars480,EDEH,Herrenteich Airfield,DE,17.98
+stars482,EDXP,Harle Airfield,DE,10.73
+stars482,EDWL,Langeoog Airport,DE,13.73
+stars482,EDWG,Wangerooge Airport,DE,14.52
+stars486,NZWN,Wellington International Airport,NZ,3.13
+stars489,LESZ,Aeródromo de Sigüenza,ES,12.45
+stars498,LPCR,Corvo Airport,PT,0.17
+stars508,GCXO,Tenerife Norte-Ciudad de La Laguna Airport,ES,19.9
+stars509,SCPF,Marcel Marchant Airport,CL,3.99
+stars509,SCPV,El Mirador Airport,CL,15.84
+stars509,SCTE,El Tepual International Airport,CL,17.4
+stars51,LEMD,Adolfo Suárez Madrid–Barajas Airport,ES,8.54
+stars51,LETO,Madrid–Torrejón Airport / Torrejón Air Base,ES,11.25
+stars51,LEGT,Getafe Air Base,ES,19.98
+stars511,SCTL,Panguilemo Airport,CL,7.27
+stars511,SCLG,La Aguada Airport,CL,14.42
+stars511,SCJV,El Parrón Airport,CL,17.39
+stars517,SCGE,María Dolores Airport,CL,6.55
+stars52,LEAM,Almería Airport,ES,7.47
+stars539,EDGF,Fulda-Jossa Airfield,DE,19.6
+stars54,YCBB,Coonabarabran Airport,AU,19.94
+stars548,LPPI,Pico Airport,PT,9.4
+stars549,LPPI,Pico Airport,PT,8.28
+stars549,LPHR,Horta Airport,PT,16.09
+stars550,EHHV,Hilversum Airfield,NL,10.59
+stars551,EBBE,Beauvechain Air Base,BE,5.44
+stars551,EBTN,Goetsenhoven Airfield,BE,9.14
+stars551,EBAV,Avernas-le-Bauduin Ultralight Airfield,BE,19.22
+stars552,LFDT,Aérodrome de Tarbes Laloubère,FR,2.21
+stars552,LFBT,Tarbes-Lourdes-Pyrénées Airport,FR,7.36
+stars603,ENTC,Tromsø Airport,NO,2.55
+stars610,VEPY,Pakyong Airport,IN,11.38
+stars631,LEVX,Vigo Airport,ES,18.83
+stars634,NZMT,Martinborough Airport,NZ,2.45
+stars634,NZPW,Papawai Airfield,NZ,14.76
+stars640,LESO,San Sebastián Airport,ES,4.02
+stars641,LESZ,Aeródromo de Sigüenza,ES,2.58
+stars643,CZBM,Bromont (Roland Désourdy) Airport,CA,18.17
+stars645,CYHU,Montréal / Saint-Hubert Metropolitan Airport,CA,6.46
+stars646,FALA,Lanseria International Airport,ZA,9.57
+stars65,LOXT,Brumowski  Air Base,AT,19.0
+stars673,LIPB,Bolzano Airport,IT,10.48
+stars673,LIGT,San Genesio Airfield,IT,17.84
+stars676,LIPB,Bolzano Airport,IT,4.23
+stars676,LIGT,San Genesio Airfield,IT,9.2
+stars679,LEPP,Pamplona Airport,ES,4.54
+stars685,LPGR,Graciosa Airport,PT,1.94
+stars69,LEBI,Beariz Airfield Forest Fire Base,ES,16.81
+stars692,LPMA,Cristiano Ronaldo International Airport,PT,12.98
+stars7,LEPP,Pamplona Airport,ES,5.26
+stars70,GCAT,Jarde Airport,ES,15.19
+stars70,GCFV,Fuerteventura Airport,ES,16.05
+stars701,LESZ,Aeródromo de Sigüenza,ES,12.45
+stars71,LFBF,Toulouse-Francazal (BA 101) Air Base,FR,4.1
+stars71,LFBO,Toulouse-Blagnac Airport,FR,7.39
+stars71,LFCL,Toulouse-Lasbordes Airfield,FR,14.01
+stars71,LFBR,Aérodrome de Muret - Lherm,FR,14.23
+stars713,FMEP,Saint-Pierre Pierrefonds Airport,RE,13.53
+stars714,LEDA,Lleida-Alguaire Airport,ES,18.56
+stars715,LENA,Benabarre Airfield,ES,11.98
+stars717,LESZ,Aeródromo de Sigüenza,ES,12.45
+stars721,EBKH,Balen-Keiheuvel Airfield,BE,1.06
+stars721,EBLE,Leopoldsburg Airfield,BE,9.63
+stars721,EBBL,Kleine Brogel Air Base,BE,17.18
+stars724,LPLA,Lajes Airport,PT,17.28
+stars725,KJAC,Jackson Hole Airport,US,13.2
+stars726,KJAC,Jackson Hole Airport,US,15.73
+stars73,LETL,Teruel Airport,ES,7.81
+stars747,LEEM,El Manantío Airfield,ES,11.89
+stars747,LEBZ,Badajoz Airport,ES,15.86
+stars747,LEPN,Campo de Vuelo Casimiro Patiño,ES,19.82
+stars75,LEVC,Valencia Airport,ES,9.04
+stars753,LEAL,Alicante-Elche Miguel Hernández Airport,ES,15.54
+stars76,LEVC,Valencia Airport,ES,9.04
+stars767,LEVE,Aeródromo Virgen de La Estrella,ES,18.89
+stars772,LEVE,Aeródromo Virgen de La Estrella,ES,13.79
+stars773,LEVE,Aeródromo Virgen de La Estrella,ES,14.18
+stars778,LEVE,Aeródromo Virgen de La Estrella,ES,19.99
+stars781,CYSC,Sherbrooke Airport,CA,19.47
+stars786,CYTF,Alma Airport,CA,10.6
+stars787,CYRC,Chicoutimi/Saint-Honoré Aerodrome,CA,14.28
+stars8,LEPP,Pamplona Airport,ES,19.01
+stars806,LOGI,Trieben Airfield,AT,12.2
+stars809,EGNG,Bagby Thirsk Airfield,GB,6.35
+stars809,EGXZ,RAF Topcliffe,GB,11.84
+stars810,LECU,Madrid-Cuatro Vientos Airport,ES,12.78
+stars820,EHAM,Amsterdam Airport Schiphol,NL,11.78
+stars83,ESSB,Stockholm-Bromma Airport,SE,14.74
+stars837,ENDU,Bardufoss Airport,NO,18.79
+stars839,LEPN,Campo de Vuelo Casimiro Patiño,ES,11.74
+stars839,LEEM,El Manantío Airfield,ES,18.81
+stars84,LEVT,Vitoria Airport,ES,6.18
+stars85,LECU,Madrid-Cuatro Vientos Airport,ES,10.23
+stars85,LEMD,Adolfo Suárez Madrid–Barajas Airport,ES,13.84
+stars85,LEGT,Getafe Air Base,ES,17.45
+stars867,ENGM,Oslo-Gardermoen International Airport,NO,19.38
+stars868,ENTS,Trysil Sæteråsen Airfield,NO,16.2
+stars868,ESKS,Scandinavian Mountains Airport,SE,18.36
+stars876,FMEP,Saint-Pierre Pierrefonds Airport,RE,13.44
+stars88,LEBB,Bilbao Airport,ES,5.31
+stars92,LBSF,Sofia Airport,BG,11.94
+stars926,LSTZ,Zweisimmen Airfield,CH,13.66
+stars926,LSGT,La Gruyère  Airfield,CH,16.84
+stars926,LSGK,Saanen Airfield,CH,19.49
+stars926,LSGE,Ecuvillens Airfield,CH,19.77
+stars927,LSZJ,Courtelary Airfield,CH,7.95
+stars927,LSGC,Les Eplatures Airport,CH,17.35
+stars928,LSZB,Bern Airport,CH,16.17
+stars930,LSZW,Thun Airfield,CH,15.98
+stars933,LSZW,Thun Airfield,CH,18.6
+stars936,LSPF,Schmerlat Airfield,CH,6.48
+stars936,EDSI,Binningen Glider Field,DE,13.17
+stars936,EDSL,Blumberg Airfield,DE,15.72
+stars936,EDTA,Bohlhof Glider Field,DE,17.77
+stars937,LSZM,Mollis Airfield,CH,3.83
+stars937,LSZX,Schänis Airfield,CH,14.37
+stars937,LSVV,Vorabgletscher Mountain Landing Site,CH,19.47
+stars939,LSZH,Zürich Airport,CH,7.05
+stars939,LSMD,Dübendorf Air Base,CH,14.66
+stars939,LSPH,Winterthur Airfield,CH,15.12
+stars939,LSPF,Schmerlat Airfield,CH,19.26
+stars943,LHFP,Piuszpuszta Airfield,HU,13.22
+stars943,LOAN,Wiener Neustadt East Airport,AT,19.72
+stars944,LHFP,Piuszpuszta Airfield,HU,13.3
+stars952,FMEP,Saint-Pierre Pierrefonds Airport,RE,6.66
+stars955,FMEE,Roland Garros Airport,RE,14.53
+stars956,FMEP,Saint-Pierre Pierrefonds Airport,RE,14.59
+stars959,FMEP,Saint-Pierre Pierrefonds Airport,RE,5.32
+stars960,FMEE,Roland Garros Airport,RE,19.85
+stars964,FMEP,Saint-Pierre Pierrefonds Airport,RE,18.65
+stars965,FMEP,Saint-Pierre Pierrefonds Airport,RE,14.2
+stars971,FMEE,Roland Garros Airport,RE,11.12
+stars974,FMEE,Roland Garros Airport,RE,3.58
+stars975,FMEE,Roland Garros Airport,RE,4.8
+stars976,CYCL,Charlo Airport,CA,12.71
+stars983,EDOR,Stölln-Rhinow Airfield,DE,11.9
+stars983,EDCL,Klietz-Scharlibbe Airfield,DE,12.21
+stars983,EDUA,Flugplatz Stechow-Ferchesar,DE,16.52
+stars984,EDUA,Flugplatz Stechow-Ferchesar,DE,4.87
+stars984,EDOR,Stölln-Rhinow Airfield,DE,7.14
+stars984,EDAI,Sonderlandeplatz Segeletz,DE,16.84
+stars985,LEAM,Almería Airport,ES,8.39
+stars992,SCRD,Rodelillo Airport,CL,10.63
+stars992,SCVM,Viña del Mar Airport,CL,12.78
+stars995,LOWS,Salzburg Airport,AT,14.53
+stars998,EGNU,Full Sutton Airfield,GB,13.92

@@ -1,0 +1,25 @@
+# Raw archive and caches: rebuilt by the fetch scripts (README)
+data/tess_archive/*/
+data/tess_archive/stations.json
+data/tess_archive/download.log
+__pycache__/
+*.out
+.DS_Store
+data/era5_ts_raw/
+data/nights/
+data/features/
+
+# Third-party device histories (STARS4ALL), not for redistribution
+data/stars4all_histories/
+# Derived data shipped in the Zenodo archive, not in git (README)
+data/goes/
+data/msg/
+data/viirs/
+data/sat/
+data/record/
+data/era5_ts/
+data/mountain/
+data/metar/*
+!data/metar/pairs.csv
+# Internal planning record, not released
+results/frozen_plan_2026-10-30.md

@@ -1,0 +1,8 @@
+# Photometers whose infrared channel does not give usable sky temperatures, from results/audit_ir.csv (2026-10-29).
+# Skipped by build_nights.py. Units with partial failures (e.g. stars289, stars65, about 60% no-read) are kept:
+# their no-read readings are dropped reading by reading.
+id,reason
+stars701,every reading is the error code (-273.15 C)
+stars703,every reading is the error code (-273.15 C)
+stars81,97.5% of readings are the no-read code (sky 0.00 C)
+stars302,94.3% of readings are the no-read code (sky 0.00 C)

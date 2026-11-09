@@ -1,0 +1,18 @@
+held-out robust SD of clear-sky residuals (C), same candidate bins for every source
+form               brunt  linear  temp
+id       source                       
+stars211 era5land   7.83    5.63  5.78
+         era5pl     3.89    3.09  5.63
+         era5pl6    3.97    3.25  5.56
+         station    5.13    3.79  5.26
+stars427 era5land   6.54    5.26  5.28
+         era5pl     4.09    3.36  5.29
+         era5pl6    4.01    3.27  5.26
+         station    5.15    3.57  4.50
+stars507 era5land   7.58    7.48  7.86
+         era5pl     5.17    5.93  7.69
+         era5pl6    5.21    6.00  7.64
+         station    6.37    6.53  6.32
+stars90  era5land   4.37    4.47  4.72
+         era5pl     2.76    2.61  5.07
+         era5pl6    2.95    2.72  4.64

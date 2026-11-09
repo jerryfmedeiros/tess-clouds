@@ -1,0 +1,19 @@
+Satellite references against automated METAR on the same reports (snow-free, no mountain sites on the terrain model); exploratory, after the freeze; intervals: night-block within photometers [..], photometer-cluster (..)
+
+goes: 4960 reports at 3 photometers; METAR and satellite agree on 0.910 (METAR clear, satellite cloudy 0.039; METAR cloudy, satellite clear 0.051)
+  satellite vs METAR       n=   4960  0.856 [0.814-0.892] (0.746-0.866)  hit 0.938  false alarm 0.226
+  classifier vs METAR      n=   4960  0.901 [0.868-0.931] (0.843-0.920)  hit 0.958  false alarm 0.156
+  classifier vs satellite  n=   4960  0.862 [0.819-0.897] (0.758-0.883)  hit 0.954  false alarm 0.229
+  classifier vs consensus  n=   4514  0.929 [0.894-0.963] (0.827-0.940)  hit 0.989  false alarm 0.130
+
+msg: 236510 reports at 38 photometers; METAR and satellite agree on 0.835 (METAR clear, satellite cloudy 0.043; METAR cloudy, satellite clear 0.121)
+  satellite vs METAR       n= 236510  0.825 [0.821-0.830] (0.795-0.849)  hit 0.843  false alarm 0.193
+  classifier vs METAR      n= 236510  0.889 [0.887-0.892] (0.859-0.912)  hit 0.847  false alarm 0.068
+  classifier vs satellite  n= 236510  0.767 [0.762-0.771] (0.721-0.799)  hit 0.833  false alarm 0.300
+  classifier vs consensus  n= 197550  0.914 [0.911-0.917] (0.887-0.935)  hit 0.879  false alarm 0.050
+
+viirs: 18202 reports at 52 photometers; METAR and satellite agree on 0.903 (METAR clear, satellite cloudy 0.077; METAR cloudy, satellite clear 0.020)
+  satellite vs METAR       n=  18202  0.835 [0.826-0.842] (0.809-0.859)  hit 0.973  false alarm 0.304
+  classifier vs METAR      n=  18202  0.889 [0.883-0.895] (0.864-0.911)  hit 0.886  false alarm 0.109
+  classifier vs satellite  n=  18202  0.891 [0.885-0.896] (0.865-0.912)  hit 0.843  false alarm 0.061
+  classifier vs consensus  n=  16433  0.937 [0.933-0.941] (0.913-0.957)  hit 0.901  false alarm 0.026

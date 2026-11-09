@@ -1,0 +1,5 @@
+photometers scored: 387
+brunt   held-out robust SD: median 3.37 C, IQR 2.60-4.64; |median residual| median 0.16 C
+linear  held-out robust SD: median 3.40 C, IQR 2.63-4.92; |median residual| median 0.33 C
+temp    held-out robust SD: median 3.91 C, IQR 3.22-5.06; |median residual| median 0.37 C
+best form per photometer: {'brunt': 195, 'linear': 160, 'temp': 32}

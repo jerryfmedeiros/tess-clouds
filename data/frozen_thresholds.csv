@@ -1,0 +1,3 @@
+# The frozen classifier (2026-10-30, tag freeze-satellite): row "all" of results/classify_metar_thresholds.csv at commit fcda928, fitted on all METAR photometers. classify_metar.py refits that row on every run; the satellite scoring and the figures read this file.
+fold,spectral,variability,kx,kv,k_z_brunt_alone,k_z_linear_alone,k_sky_med_alone,k_neg_dT_alone,k_s5_excess_alone,k_d30_alone,k_dfa_f20_alone,k_vis15_alone
+all,z_brunt,s5_excess,2.449,0.3605,2.1472,2.108,-7.28,-18.56,0.058,0.445,0.193,0.11

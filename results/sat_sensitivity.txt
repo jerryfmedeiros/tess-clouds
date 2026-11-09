@@ -1,0 +1,19 @@
+Two-test classifier on snow-free lowland boxes (terrain-model mountain rule), one matching rule changed at a time; balanced accuracy (95% photometer-cluster interval), hit, false alarm
+  goes   primary (7 of 9, 40 of 49; 5 min; 70 deg)    photometers   52 boxes   284960  0.797 (0.761-0.826)  hit 0.701  false alarm 0.106
+  goes   box cloudy at 5 of 9                         photometers   52 boxes   310223  0.780 (0.739-0.817)  hit 0.666  false alarm 0.106
+  goes   box cloudy at 9 of 9                         photometers   52 boxes   262078  0.801 (0.766-0.829)  hit 0.709  false alarm 0.106
+  goes   window 2.5 min                               photometers   52 boxes   281583  0.796 (0.762-0.825)  hit 0.698  false alarm 0.105
+  goes   window 10 min                                photometers   52 boxes   286933  0.797 (0.760-0.829)  hit 0.694  false alarm 0.100
+  goes   view angle below 60 deg                      photometers   42 boxes   219339  0.782 (0.737-0.821)  hit 0.664  false alarm 0.099
+  msg    primary (7 of 9, 40 of 49; 5 min; 70 deg)    photometers  258 boxes  3950266  0.758 (0.743-0.770)  hit 0.687  false alarm 0.172
+  msg    box cloudy at 5 of 9                         photometers  258 boxes  4156324  0.749 (0.736-0.762)  hit 0.670  false alarm 0.172
+  msg    box cloudy at 9 of 9                         photometers  258 boxes  3706391  0.768 (0.755-0.781)  hit 0.709  false alarm 0.172
+  msg    window 2.5 min                               photometers  258 boxes  3950266  0.758 (0.743-0.770)  hit 0.687  false alarm 0.172
+  msg    window 10 min                                photometers  258 boxes  3976034  0.758 (0.743-0.770)  hit 0.681  false alarm 0.166
+  msg    view angle below 60 deg                      photometers  205 boxes  3271050  0.761 (0.746-0.774)  hit 0.685  false alarm 0.162
+  viirs  primary (7 of 9, 40 of 49; 5 min; 70 deg)    photometers  347 boxes   248227  0.823 (0.810-0.834)  hit 0.707  false alarm 0.061
+  viirs  box cloudy at 30 of 49                       photometers  347 boxes   264466  0.815 (0.803-0.825)  hit 0.690  false alarm 0.061
+  viirs  box cloudy at 49 of 49                       photometers  347 boxes   221026  0.832 (0.819-0.843)  hit 0.725  false alarm 0.061
+  viirs  window 2.5 min                               photometers  347 boxes   246780  0.821 (0.810-0.832)  hit 0.704  false alarm 0.063
+  viirs  window 10 min                                photometers  347 boxes   250024  0.822 (0.812-0.833)  hit 0.700  false alarm 0.056
+ranges over variants: goes 0.780-0.801; msg 0.749-0.768; viirs 0.815-0.832

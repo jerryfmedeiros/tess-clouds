@@ -1,0 +1,10 @@
+Infrared never usable & error code or no reading in nearly every reading & photometer excluded & 4 photometers \\
+Obstructed field of view & 95th percentile of ERA5-Land air minus sky temperature below 8~K & photometer excluded & 8 photometers \\
+Obstructed in some months & the same test in each calendar month with at least 500 dark bins & months flagged and left out of the baseline fit; scores given with and without & 164 months, 31 photometers \\
+Device change & MAC address in the monthly header, checked against the network register & one baseline offset per device & 31 photometers with two or more devices \\
+Two devices under one name & message counters running at the same time & months removed & 2 months, 1 photometer \\
+Recorded away from the position used & header position more than 5~km away, or none for a device that never states it & months removed & 78 months, 9 photometers \\
+Placeholder position & one position shared by photometers whose skies differ & photometer excluded & 7 photometers \\
+Position typing error & latitude or longitude evidently mistyped in the archive & position corrected & 5 photometers \\
+No clear-sky baseline & no ERA5-Land cell at the site, or no clear candidate bin & photometer excluded & 3 photometers \\
+Weak clear-sky baseline & held-out clear-sky SD above the network's upper Tukey fence (7.20~K) & scores given with and without & 26 photometers \\

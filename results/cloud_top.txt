@@ -1,0 +1,19 @@
+cloud-top classes (fixed before looking): below = top <= photometer (DEM); low = up to 1 km above it; mid = to 6 km above sea level; high = 6 km and higher; none = no valid height. VIIRS: the highest valid pixel of the 7 x 7 box; the median pixel is given too.
+goes Canary: photometers 3
+  missed  n  1500  below 0.786  low 0.059  mid 0.059  high 0.094  none 0.001  median top minus site -0.57 km
+  agreed  n  1500  below 0.410  low 0.113  mid 0.117  high 0.353  none 0.006  median top minus site +0.57 km
+goes other: photometers 9
+  missed  n  1500  below 0.000  low 0.021  mid 0.207  high 0.694  none 0.078  median top minus site +6.87 km
+  agreed  n  1500  below 0.000  low 0.020  mid 0.195  high 0.769  none 0.017  median top minus site +6.20 km
+msg Canary: photometers 11
+  missed  n  1500  below 0.535  low 0.131  mid 0.223  high 0.055  none 0.057  median top minus site -0.33 km
+  agreed  n  1500  below 0.168  low 0.221  mid 0.237  high 0.283  none 0.091  median top minus site +1.17 km
+msg other: photometers 11
+  missed  n  1500  below 0.023  low 0.074  mid 0.231  high 0.219  none 0.453  median top minus site +2.95 km
+  agreed  n  1500  below 0.002  low 0.030  mid 0.295  high 0.385  none 0.288  median top minus site +4.23 km
+viirs Canary: photometers 11
+  missed  n   400  below 0.000  low 0.163  mid 0.435  high 0.403  none 0.000  median top minus site +2.22 km; median pixel: at or below the site 0.065, median top minus site +1.38 km
+  agreed  n   400  below 0.005  low 0.152  mid 0.212  high 0.623  none 0.007  median top minus site +6.11 km; median pixel: at or below the site 0.055, median top minus site +3.54 km
+viirs other: photometers 18
+  missed  n   400  below 0.000  low 0.035  mid 0.328  high 0.623  none 0.015  median top minus site +7.39 km; median pixel: at or below the site 0.015, median top minus site +3.15 km
+  agreed  n   400  below 0.000  low 0.035  mid 0.307  high 0.655  none 0.003  median top minus site +6.37 km; median pixel: at or below the site 0.010, median top minus site +5.20 km

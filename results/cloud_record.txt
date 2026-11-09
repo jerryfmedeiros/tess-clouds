@@ -1,0 +1,21 @@
+cloud record: 384 photometers, 43890510 night bins, 43866139 with a call; mountain 37, weak baseline 26; obstructed months 164 at 31 photometers; thresholds z > 2.449 or s5_excess > 0.3605 C (frozen)
+
+Columns of data/record/<id>.csv.gz (one row per 5-minute night bin, Sun below -12 deg):
+  time          bin centre, UTC
+  sky_C         median sky temperature of the bin (C)
+  z             baseline residual over the photometer's held-out clear-sky SD (Eq. 2 of the paper); -inf at the floor
+  s5_excess_C   within-bin scatter minus the clear-sky scatter at that sky temperature (C)
+  cloudy        1 cloudy, 0 clear (the two-test classifier, frozen thresholds), empty where neither test is defined;
+                a bin mostly at the floor is clear even when the scatter test fires, as Sect. 3 of the paper states
+                (the scoring scripts let the scatter test fire there: 585 of 43.9 million bins, 1.3e-5, differ)
+  floor         1 when the bin is mostly at the -50 C firmware floor (called clear; colder cloud cannot be seen)
+  snow          1 when ERA5-Land snow depth > 0.01 m (night satellite masks unreliable; the record itself is unaffected)
+  moon_up       1 when the Moon is above the horizon
+  dark          1 when the Sun is below -18 deg
+  obstructed    1 when the bin's calendar month (UTC) fails the obstruction test month by month: the 95th percentile
+                of ERA5-Land air minus sky temperature over the month's dark bins below 8 C (the sensor does not see
+                the sky; the calls of that month are unreliable)
+Per-photometer flags (results/cloud_record.csv): mountain (1500 m and above; ERA5 pressure-level baseline; satellite
+masks may report cloud below the site), weak (clear-sky baseline too loose: scores near chance against the satellites),
+and the two-test balanced accuracy against GOES, Meteosat and VIIRS on snow-free lowland scans (empty where the
+photometer has fewer than 100 clear or 100 cloudy matched scans, or is a mountain site).

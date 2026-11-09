@@ -1,0 +1,88 @@
+# Written by audit_positions.py: archive months recorded away from the position used, and photometers with
+# a placeholder position. Skipped by build_nights.py (and the 'all' rows by qc_ir.excluded_ids, read by the baseline check and the satellite scoring).
+id,month,reason
+stars705,all,placeholder position shared by 7 TESS4C photometers (Hebrew University of Jerusalem) whose skies differ
+stars706,all,placeholder position shared by 7 TESS4C photometers (Hebrew University of Jerusalem) whose skies differ
+stars707,all,placeholder position shared by 7 TESS4C photometers (Hebrew University of Jerusalem) whose skies differ
+stars854,all,placeholder position shared by 7 TESS4C photometers (Hebrew University of Jerusalem) whose skies differ
+stars855,all,placeholder position shared by 7 TESS4C photometers (Hebrew University of Jerusalem) whose skies differ
+stars856,all,placeholder position shared by 7 TESS4C photometers (Hebrew University of Jerusalem) whose skies differ
+stars857,all,placeholder position shared by 7 TESS4C photometers (Hebrew University of Jerusalem) whose skies differ
+stars218,2019-01,header position more than 5 km from the position used
+stars218,2019-02,header position more than 5 km from the position used
+stars218,2019-03,header position more than 5 km from the position used
+stars218,2019-04,header position more than 5 km from the position used
+stars218,2019-05,header position more than 5 km from the position used
+stars218,2019-06,header position more than 5 km from the position used
+stars218,2019-07,header position more than 5 km from the position used
+stars218,2019-08,header position more than 5 km from the position used
+stars218,2019-09,header position more than 5 km from the position used
+stars218,2019-10,header position more than 5 km from the position used
+stars218,2019-11,header position more than 5 km from the position used
+stars218,2019-12,header position more than 5 km from the position used
+stars218,2020-01,header position more than 5 km from the position used
+stars218,2020-02,header position more than 5 km from the position used
+stars218,2020-03,header position more than 5 km from the position used
+stars218,2020-04,header position more than 5 km from the position used
+stars218,2020-05,header position more than 5 km from the position used
+stars218,2020-06,header position more than 5 km from the position used
+stars218,2020-07,header position more than 5 km from the position used
+stars218,2020-08,header position more than 5 km from the position used
+stars218,2020-09,header position more than 5 km from the position used
+stars218,2020-10,header position more than 5 km from the position used
+stars218,2020-11,header position more than 5 km from the position used
+stars218,2020-12,header position more than 5 km from the position used
+stars218,2021-01,header position more than 5 km from the position used
+stars218,2021-02,header position more than 5 km from the position used
+stars218,2021-03,header position more than 5 km from the position used
+stars218,2021-04,header position more than 5 km from the position used
+stars218,2021-05,header position more than 5 km from the position used
+stars218,2021-06,header position more than 5 km from the position used
+stars218,2021-07,header position more than 5 km from the position used
+stars218,2021-08,header position more than 5 km from the position used
+stars218,2021-09,header position more than 5 km from the position used
+stars218,2021-10,header position more than 5 km from the position used
+stars218,2021-11,header position more than 5 km from the position used
+stars218,2021-12,header position more than 5 km from the position used
+stars218,2022-01,header position more than 5 km from the position used
+stars218,2022-02,header position more than 5 km from the position used
+stars218,2022-03,header position more than 5 km from the position used
+stars226,2019-01,header position more than 5 km from the position used
+stars226,2019-02,header position more than 5 km from the position used
+stars271,2022-06,"no header position, and the device never states this position"
+stars271,2022-08,"no header position, and the device never states this position"
+stars271,2022-09,"no header position, and the device never states this position"
+stars271,2022-10,"no header position, and the device never states this position"
+stars348,2019-12,header position more than 5 km from the position used
+stars349,2019-12,header position more than 5 km from the position used
+stars382,2019-11,header position more than 5 km from the position used
+stars382,2019-12,header position more than 5 km from the position used
+stars382,2020-01,header position more than 5 km from the position used
+stars382,2020-02,header position more than 5 km from the position used
+stars382,2021-06,header position more than 5 km from the position used
+stars383,2019-12,"no header position, and the device never states this position"
+stars383,2020-02,"no header position, and the device never states this position"
+stars383,2020-03,"no header position, and the device never states this position"
+stars383,2020-04,"no header position, and the device never states this position"
+stars383,2020-05,"no header position, and the device never states this position"
+stars383,2020-06,"no header position, and the device never states this position"
+stars383,2020-07,"no header position, and the device never states this position"
+stars383,2020-08,"no header position, and the device never states this position"
+stars383,2020-09,"no header position, and the device never states this position"
+stars383,2020-10,"no header position, and the device never states this position"
+stars383,2020-11,"no header position, and the device never states this position"
+stars383,2020-12,header position more than 5 km from the position used
+stars383,2021-01,header position more than 5 km from the position used
+stars383,2021-02,header position more than 5 km from the position used
+stars383,2021-03,header position more than 5 km from the position used
+stars383,2021-04,header position more than 5 km from the position used
+stars383,2021-05,header position more than 5 km from the position used
+stars383,2021-06,header position more than 5 km from the position used
+stars383,2021-07,header position more than 5 km from the position used
+stars383,2021-08,header position more than 5 km from the position used
+stars383,2021-09,header position more than 5 km from the position used
+stars383,2021-10,header position more than 5 km from the position used
+stars383,2021-11,header position more than 5 km from the position used
+stars786,2022-07,"no header position, and the device never states this position"
+stars788,2022-03,"no header position, and the device never states this position"
+stars788,2022-05,"no header position, and the device never states this position"

@@ -1,0 +1,11 @@
+die temperature against ERA5-Land air temperature, astronomical-night bins of 384 photometers (37690565 bins); median die (C), median die minus air (K), share of bins
+  network: median die 11.62
+    air < -10     bins    824778 (0.022)  die  -2.89  die minus air  11.55
+    air -10 to 0  bins   3159159 (0.084)  die   7.58  die minus air  10.17
+    air 0 to 10   bins  13162084 (0.349)  die  10.09  die minus air   4.25
+    air 10 to 20  bins  15762730 (0.418)  die  15.04  die minus air   0.59
+    air > 20      bins   4781814 (0.127)  die  23.16  die minus air   0.17
+  summits (stars211, stars426, stars427, stars507, stars90): median die 10.31
+    air 0 to 10   bins     36681 (0.062)  die   8.58  die minus air  -0.34
+    air 10 to 20  bins    513197 (0.870)  die  10.30  die minus air  -3.51
+    air > 20      bins     40103 (0.068)  die  16.41  die minus air  -4.62
