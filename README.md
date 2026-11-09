@@ -32,8 +32,9 @@ the exclusions, the elevations, the frozen thresholds, the ERA5 pressure-level s
 `verify.py` reads are in the data archive released with the paper (about 4.1 GB; Zenodo,
 [10.5281/zenodo.24090811](https://doi.org/10.5281/zenodo.24090811)), one tar file per folder: `data_features.tar` (2.3 GB), `data_nights.tar` (1.0 GB), `data_record.tar`
 (0.4 GB), `data_era5_ts.tar`, `data_metar.tar`, `data_msg.tar`, `data_sat.tar`, `data_mountain.tar`, `data_goes.tar`
-and `data_viirs.tar`, with their checksums in `SHA256SUMS`. Unpack them in the repository folder
-(`for f in data_*.tar; do tar -xf "$f"; done`) so that the folders sit under `data/`; without them
+and `data_viirs.tar`, plus `data_tess_archive_metar.tar.gz` (the unchanged STARS4ALL monthly files of the 58
+METAR-paired photometers, read by `nsb_selection.py`), with their checksums in `SHA256SUMS`. Unpack them in the repository folder
+(`for f in data_*.tar*; do tar -xf "$f"; done`) so that the folders sit under `data/`; without them
 `verify.py --list` marks 17 of the 26 targets as skipped.
 
 ## What is where

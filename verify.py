@@ -78,7 +78,7 @@ TARGETS: list[tuple[str, list[str], list[str], list[str], bool]] = [
      ["data/features", "results/sat_score_sites_dem.csv", "data/elevation.csv", "results/qc_ir_months.csv"], False),
     ("nsb_selection", ["nsb_selection.py"],
      ["data/metar/nsb_nights.csv.gz", "results/nsb_selection.csv", "results/nsb_selection.txt", "results/nsb_thresholds.csv"],
-     ["data/nights", "data/features", "data/metar/labels"], False),
+     ["data/nights", "data/features", "data/metar/labels", "data/tess_archive/stars721"], False),   # raw minutes of the METAR photometers
     ("cloud_base", ["cloud_base.py"],
      ["data/metar/cloud_base.csv.gz", "results/cloud_base.csv", "results/cloud_base.txt"],
      ["data/features", "data/metar/labels"], False),
