@@ -1,5 +1,7 @@
 # Cloud detection from the TESS-W infrared sensor
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24090811.svg)](https://doi.org/10.5281/zenodo.24090811)
+
 Code and data release for "Night cloud detection from the infrared sensor of a low-cost light-pollution photometer
 network" (Fernandes Medeiros, submitted to Atmospheric Measurement Techniques). A clear/cloudy classifier built from
 the MLX90614 infrared channel of the STARS4ALL TESS-W photometers, trained on automated ceilometer reports and
@@ -27,8 +29,8 @@ Scripts that read raw files take them from the folder named by the environment v
 
 The git repository holds the code, the results, the tables, the figures and the small data files (the selection,
 the exclusions, the elevations, the frozen thresholds, the ERA5 pressure-level series). The derived data that
-`verify.py` reads are in the data archive released with the paper (about 4.2 GB; Zenodo DOI in the code availability
-statement), one tar file per folder: `data_features.tar` (2.3 GB), `data_nights.tar` (1.0 GB), `data_record.tar`
+`verify.py` reads are in the data archive released with the paper (about 4.1 GB; Zenodo,
+[10.5281/zenodo.24090811](https://doi.org/10.5281/zenodo.24090811)), one tar file per folder: `data_features.tar` (2.3 GB), `data_nights.tar` (1.0 GB), `data_record.tar`
 (0.4 GB), `data_era5_ts.tar`, `data_metar.tar`, `data_msg.tar`, `data_sat.tar`, `data_mountain.tar`, `data_goes.tar`
 and `data_viirs.tar`, with their checksums in `SHA256SUMS`. Unpack them in the repository folder
 (`for f in data_*.tar; do tar -xf "$f"; done`) so that the folders sit under `data/`; without them
