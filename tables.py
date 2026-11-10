@@ -34,16 +34,17 @@ from qc_ir import excluded_ids
 ROOT = Path(__file__).parent
 OUT = ROOT / "tables"
 TXT = ROOT / "results" / "tables.txt"
-METHODS = [("two_test", "Two-test classifier"), ("z_brunt", "Baseline test alone (Brunt)"),
-           ("z_linear", "Baseline test alone (linear)"), ("neg_dT", "Die minus sky, learned threshold"),
-           ("sky_med", "Sky temperature alone"), ("s5_excess", "Variability test alone"),
-           ("dfa_f20", "Fluctuation at 20 min (DFA)"), ("d30", "30 min scatter of changes"),
-           ("vis15", "Brightness stability (15 min)"), ("dashboard", "Network dashboard rule"),
-           ("alarcon", r"\citet{Alarcon2021NaturalMinimum} selection cut"), ("always_clear", "Always clear")]
+METHODS = [("two_test", "Two-test classifier"), ("z_brunt", "Clear-sky baseline, Brunt form"),
+           ("z_linear", "Clear-sky baseline, linear form"), ("neg_dT", r"Die minus sky ($\Delta T$)"),
+           ("sky_med", "Sky temperature"), ("s5_excess", "Scatter within the 5~min bin"),
+           ("dfa_f20", "Detrended fluctuation at 20~min (DFA)"), ("d30", "Scatter of bin-to-bin changes over 30~min"),
+           ("vis15", "Brightness range over 15~min"), ("dashboard", r"Network dashboard (cloudy if $\Delta T < 15$~K)"),
+           ("alarcon", r"\citet{Alarcon2021NaturalMinimum} (clear if $\Delta T > 54.5$~K)"), ("always_clear", "Always clear")]
 REFS = [("goes", "GOES ABI", "Americas"), ("msg", "Meteosat", "Europe, Africa"), ("viirs", "VIIRS NOAA-20", "global")]
 SHORT = {"goes": "GOES ABI", "msg": "Meteosat", "viirs": "VIIRS"}      # Tables 4 and 5 (NOAA-20 is stated in Table 2)
-# Table 3 groups, a rule before each: level scores, variability scores, brightness, fixed rules (BA order within each)
-GROUP_START = {"z_brunt", "s5_excess", "vis15", "dashboard"}
+# Table 3 groups, a rule and a named header row before each (BA order within each)
+GROUP_START = {"z_brunt": "Sky temperature level", "s5_excess": "Sky temperature variability",
+               "vis15": "Sky brightness", "dashboard": "Fixed rules"}
 # Flagged photometer, unflagged photometer at the same coordinates (Quebec; weak-baseline flag)
 COLOCATED_KM = 0.2
 COLOCATED = [("stars472", "stars979"), ("stars474", "stars981"), ("stars475", "stars982"), ("stars657", "stars237")]
@@ -150,7 +151,7 @@ def tab_metar(log):
     rows, plain = [], []
     for m, label in METHODS:
         if m in GROUP_START:
-            rows.append(r"\middlehline")
+            rows += [r"\middlehline", rf"\multicolumn{{7}}{{l}}{{\textit{{{GROUP_START[m]}}}}} \\"]
         ba, sp = v[(m, "balanced_accuracy")], v[(m, "balanced_accuracy_splits")]
         hit, fa = v[(m, "hit_rate")].value, v[(m, "false_alarm")].value
         auc = v.get((m, "auc"))
@@ -163,14 +164,15 @@ def tab_metar(log):
         rows.append(f"{label} & {ba_s} & {cu_s} & {sp_s} & {f3(hit)} & {f3(fa)} & {auc_s} \\\\")
         plain.append(f"{m}: BA {ba_s} cluster {cu_s} splits {sp_s} hit {f3(hit)} FA {f3(fa)} AUC {auc_s}")
     a = pd.read_csv(ROOT / "results" / "sat_score_dem.csv")
-    rows.append(r"\middlehline")                  # the CAVOK/NSC block, not comparable with the rows above
-    for sub, label in (("cavok_all", "Two-test, CAVOK/NSC clear"),
-                       ("cavok_left", r"\quad under 100 clear reports")):
+    rows += [r"\middlehline",                    # the CAVOK/NSC block, not comparable with the rows above
+             r"\multicolumn{7}{l}{\textit{Two-test classifier, CAVOK and NSC counted clear where the satellite is clear}} \\"]
+    for sub, label in (("cavok_all", "All {} photometers"),
+                       ("cavok_left", "{} photometers with under 100 clear reports")):
         r = a[(a["reference"] == "metar") & (a["subset"] == sub) & (a["method"] == "two_test")]
         if r.empty:
             continue
         r = r.iloc[0]
-        rows.append(f"{label} ({r.photometers} phot.) & {f3(r.balanced_accuracy)} {ci(r.ci_lo, r.ci_hi)} & "
+        rows.append(f"{label.format(r.photometers)} & {f3(r.balanced_accuracy)} {ci(r.ci_lo, r.ci_hi)} & "
                     f"{cl(r.ci_lo_phot, r.ci_hi_phot)} & -- & {f3(r.hit)} & {f3(r.false_alarm)} & -- \\\\")
         plain.append(f"{sub}: photometers {r.photometers} reports {r.references} BA {f3(r.balanced_accuracy)} "
                      f"{ci(r.ci_lo, r.ci_hi)} cluster {cl(r.ci_lo_phot, r.ci_hi_phot)} hit {f3(r.hit)} FA {f3(r.false_alarm)}")
