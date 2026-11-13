@@ -9,7 +9,8 @@ and group, and every scan or granule they need is read once.
 
 Products, all heights in metres above sea level:
   goes   ABI-L2-ACHAF (GOES-East cloud-top height, full disk, 10 km), the scan with the same start as the mask's
-         (ABI-L2-ACMF); the pixel containing the photometer, DQF good or marginal (0, 1).
+         (ABI-L2-ACMF); the pixel containing the photometer, DQF 0 or 1 (in this product 1 means not geolocated;
+         such pixels carry no height, so only DQF 0 contributes).
   msg    EO:EUM:DAT:MSG:CTH ("Cloud Top Height - MSG - 0 degree", height of the highest cloud, 1237 x 1237 grid of
          3 x 3 SEVIRI pixels, 320 m steps), the product with the mask's sensing end; the cell containing the
          photometer (the area of the mask's 3 x 3 box).
@@ -54,6 +55,7 @@ TXT = ROOT / "results" / "cloud_top.txt"
 N = {"goes": 1500, "msg": 1500, "viirs": 400}
 SEED = 20261103
 HIGH_M, LOW_KM = 6000.0, 1.0
+MSG_NONE = 9999.0          # Meteosat CTH value for no height; valid heights run 320-15040 m in 320 m steps, above it too
 READ_LOCK = threading.Lock()                       # netCDF4/HDF5 is not safe across threads: downloads run in
                                                     # parallel, files are read one at a time
 FIELDS = ["ref", "id", "time", "group", "canary", "dem_m", "top_m", "top_med_m", "n_valid", "file"]
@@ -138,7 +140,7 @@ def msg_read(path: Path, units: pd.DataFrame) -> list:
     for u in units.itertuples():
         ij = me.pixel(u.lat, u.lon, g)
         h = np.nan if ij is None else float(v[ij])
-        h = np.nan if not np.isfinite(h) or h >= 9999 or h <= 0 else h
+        h = np.nan if not np.isfinite(h) or h == MSG_NONE or h <= 0 else h
         out.append((h, h, int(np.isfinite(h))))
     return out
 

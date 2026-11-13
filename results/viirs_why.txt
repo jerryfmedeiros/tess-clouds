@@ -11,15 +11,15 @@ Canary: photometers 11
            ERA5 cc_top median 0.09 share >= 0.1 0.471  cc_above share >= 0.1 0.778
            reading thin 0.403  mask_error 0.113  unresolved 0.484
   clear   n  400  z_brunt median +0.35 share > 1 0.217  s5_excess median -0.004
-other: photometers 18
-  missed  n  398  z_brunt median +0.50 share > 1 0.309  s5_excess median +0.005
-           conf median 0.87 share >= 0.5 0.646  uncertain median 0.08  emis median 0.76 share < 0.5 0.349  ctp median 496 hPa
-           rh_top median 60.2 (with value 0.990)  phase water 0.53 ice 0.47 mixed 0.00 undetermined 0.00
-           ERA5 cc_top median 0.02 share >= 0.1 0.384  cc_above share >= 0.1 0.693
-           reading thin 0.394  mask_error 0.241  unresolved 0.364
-  agreed  n  399  z_brunt median +3.94 share > 1 0.900  s5_excess median +0.353
-           conf median 0.94 share >= 0.5 0.719  uncertain median 0.06  emis median 0.83 share < 0.5 0.201  ctp median 420 hPa
-           rh_top median 73.0 (with value 1.000)  phase water 0.51 ice 0.49 mixed 0.00 undetermined 0.00
-           ERA5 cc_top median 0.16 share >= 0.1 0.564  cc_above share >= 0.1 0.842
-           reading thin 0.444  mask_error 0.110  unresolved 0.446
-  clear   n  400  z_brunt median -0.04 share > 1 0.080  s5_excess median -0.018
+other: photometers 21
+  missed  n  400  z_brunt median +0.37 share > 1 0.312  s5_excess median +0.026
+           conf median 0.78 share >= 0.5 0.657  uncertain median 0.14  emis median 0.77 share < 0.5 0.338  ctp median 484 hPa
+           rh_top median 61.8 (with value 0.995)  phase water 0.55 ice 0.45 mixed 0.00 undetermined 0.00
+           ERA5 cc_top median 0.03 share >= 0.1 0.405  cc_above share >= 0.1 0.682
+           reading thin 0.388  mask_error 0.223  unresolved 0.390
+  agreed  n  398  z_brunt median +3.96 share > 1 0.917  s5_excess median +0.298
+           conf median 0.98 share >= 0.5 0.784  uncertain median 0.02  emis median 0.81 share < 0.5 0.211  ctp median 370 hPa
+           rh_top median 74.8 (with value 0.997)  phase water 0.50 ice 0.50 mixed 0.00 undetermined 0.00
+           ERA5 cc_top median 0.15 share >= 0.1 0.560  cc_above share >= 0.1 0.862
+           reading thin 0.482  mask_error 0.095  unresolved 0.422
+  clear   n  400  z_brunt median -0.10 share > 1 0.100  s5_excess median -0.012

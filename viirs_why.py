@@ -27,7 +27,7 @@ Per-row reading, fixed before looking: thin when conf >= 0.5 and rh_top >= RH_MO
 rh_top < RH_DRY; otherwise unresolved.
 
 Needs the raw granules and the ARCO store (not a verify target). The box statistics are cached in
-data/viirs_why_box.csv and the columns in data/viirs_why_era5.csv.gz (resumable). Writes results/viirs_why.csv and results/viirs_why.txt.
+data/viirs_why_box.csv (rebuilt when its rows are not those of data/cloudtop/viirs.csv) and the columns in data/viirs_why_era5.csv.gz (resumable). Writes results/viirs_why.csv and results/viirs_why.txt.
 
 Usage: python viirs_why.py [--keep RAW] [--workers 8]"""
 from __future__ import annotations
@@ -161,9 +161,9 @@ def main():
     d["lon"] = [pos[u][1] for u in d["id"]]
     jobs = [(a.keep / "cloudtop" / "viirs" / f, g[["id", "time", "group", "canary", "dem_m", "top_m", "lat", "lon"]]
              .to_dict("records")) for f, g in d.groupby("file")]
-    if BOX.exists():
-        sat = pd.read_csv(BOX, parse_dates=["time"])
-    else:
+    keys = set(zip(d["id"], d["time"], d["group"]))
+    sat = pd.read_csv(BOX, parse_dates=["time"]) if BOX.exists() else None
+    if sat is None or set(zip(sat["id"], sat["time"], sat["group"])) != keys:     # rebuilt when the sample changed
         with ProcessPoolExecutor(a.workers) as ex:
             sat = pd.DataFrame([r for part in ex.map(granule, jobs) for r in part])
         sat.to_csv(BOX, index=False)
